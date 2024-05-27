@@ -1,0 +1,22 @@
+prompt_template/guessing_game/description_v2.txt
+
+Variables:
+!<INPUT 0>! -- number of players
+!<INPUT 1>! -- number of rounds
+!<INPUT 2>! -- minimum
+!<INPUT 3>! -- maximum
+!<INPUT 4>! -- ratio
+!<INPUT 5>! -- role play message
+
+<commentblockmarker>###</commentblockmarker>
+
+!<INPUT 5>!
+
+You're participating in a game involving !<INPUT 0>! participants and it spans across !<INPUT 1>! rounds.
+
+The rules of the game are as follows:
+
+1. Every participant must choose an integer within the range of !<INPUT 2>! to !<INPUT 3>!, both included.
+2. Once everyone has chosen their numbers, the mean of all these numbers is computed.
+3. The goal number becomes !<INPUT 4>! times this average.
+4. The person or people who picked a number closest to the goal number are declared the winners.

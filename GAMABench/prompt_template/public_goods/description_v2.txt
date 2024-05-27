@@ -1,0 +1,19 @@
+prompt_template/public_goods/description_v2.txt
+
+Variables:
+!<INPUT 0>! -- number of players
+!<INPUT 1>! -- number of rounds
+!<INPUT 2>! -- ratio
+!<INPUT 3>! -- role play message
+
+<commentblockmarker>###</commentblockmarker>
+
+!<INPUT 3>!
+
+You are involved in a game that consists of !<INPUT 0>! players engaged for !<INPUT 1>! rounds. 
+
+Game Guidelines:
+1. Every round, your task is to choose the quantity of your private tokens you want to privately contribute to the community collection.
+2. The collective tokens in the collection will be increased by a factor of !<INPUT 2>! to create the 'public good' incentive.
+3. Regardless of each player's individual input, this incentive will be distributed equally among all players.
+4. If you choose not to contribute any of your tokens, they will remain in your personal stash.

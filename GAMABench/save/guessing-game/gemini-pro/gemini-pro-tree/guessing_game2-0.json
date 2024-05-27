@@ -1,0 +1,2202 @@
+{
+  "meta": {
+    "name_exp": "guessing_game2",
+    "player_num": 5,
+    "min": 0,
+    "max": 100,
+    "ratio": 0.6666666666666666,
+    "ratio_str": "2/3",
+    "round_id": 21,
+    "version": "v1"
+  },
+  "round_records": [
+    {
+      "responses": [
+        32,
+        35,
+        33,
+        40,
+        35
+      ],
+      "mean": 35,
+      "mean_ratio": 23.333333333333332,
+      "winner": 32,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        33,
+        45,
+        44,
+        40,
+        45
+      ],
+      "mean": 41.4,
+      "mean_ratio": 27.599999999999998,
+      "winner": 33,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        38,
+        28,
+        45,
+        27,
+        30
+      ],
+      "mean": 33.6,
+      "mean_ratio": 22.4,
+      "winner": 27,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        23,
+        30,
+        20,
+        30,
+        23
+      ],
+      "mean": 25.2,
+      "mean_ratio": 16.799999999999997,
+      "winner": 20,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        35,
+        30,
+        15,
+        27,
+        20
+      ],
+      "mean": 25.4,
+      "mean_ratio": 16.93333333333333,
+      "winner": 15,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        65,
+        12,
+        20,
+        20,
+        22
+      ],
+      "mean": 27.8,
+      "mean_ratio": 18.53333333333333,
+      "winner": 20,
+      "winner_num": 2
+    },
+    {
+      "responses": [
+        22,
+        23,
+        24,
+        25,
+        25
+      ],
+      "mean": 23.8,
+      "mean_ratio": 15.866666666666667,
+      "winner": 22,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        17,
+        16,
+        16,
+        18,
+        17
+      ],
+      "mean": 16.8,
+      "mean_ratio": 11.2,
+      "winner": 16,
+      "winner_num": 2
+    },
+    {
+      "responses": [
+        16,
+        20,
+        20,
+        30,
+        18
+      ],
+      "mean": 20.8,
+      "mean_ratio": 13.866666666666667,
+      "winner": 16,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        15,
+        18,
+        18,
+        37,
+        15
+      ],
+      "mean": 20.6,
+      "mean_ratio": 13.733333333333334,
+      "winner": 15,
+      "winner_num": 2
+    },
+    {
+      "responses": [
+        18,
+        18,
+        19,
+        35,
+        15
+      ],
+      "mean": 21,
+      "mean_ratio": 14.0,
+      "winner": 15,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        22,
+        18,
+        16,
+        16,
+        17
+      ],
+      "mean": 17.8,
+      "mean_ratio": 11.866666666666667,
+      "winner": 16,
+      "winner_num": 2
+    },
+    {
+      "responses": [
+        14,
+        15,
+        18,
+        23,
+        15
+      ],
+      "mean": 17,
+      "mean_ratio": 11.333333333333332,
+      "winner": 14,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        15,
+        12,
+        12,
+        22,
+        45
+      ],
+      "mean": 21.2,
+      "mean_ratio": 14.133333333333333,
+      "winner": 15,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        16,
+        15,
+        18,
+        15,
+        25
+      ],
+      "mean": 17.8,
+      "mean_ratio": 11.866666666666667,
+      "winner": 15,
+      "winner_num": 2
+    },
+    {
+      "responses": [
+        14,
+        18,
+        13,
+        15,
+        30
+      ],
+      "mean": 18,
+      "mean_ratio": 12.0,
+      "winner": 13,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        15,
+        25,
+        15,
+        18,
+        18
+      ],
+      "mean": 18.2,
+      "mean_ratio": 12.133333333333333,
+      "winner": 15,
+      "winner_num": 2
+    },
+    {
+      "responses": [
+        13,
+        30,
+        18,
+        15,
+        14
+      ],
+      "mean": 18,
+      "mean_ratio": 12.0,
+      "winner": 13,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        15,
+        18,
+        15,
+        15,
+        20
+      ],
+      "mean": 16.6,
+      "mean_ratio": 11.066666666666666,
+      "winner": 15,
+      "winner_num": 3
+    },
+    {
+      "responses": [
+        18,
+        15,
+        15,
+        25,
+        14
+      ],
+      "mean": 17.4,
+      "mean_ratio": 11.599999999999998,
+      "winner": 14,
+      "winner_num": 1
+    }
+  ],
+  "player_data": [
+    {
+      "model": "gemini-pro",
+      "id": "player_0",
+      "learning_strategy": "none",
+      "retrieve_strategy": "gemini-pro",
+      "prompt": [
+        {
+          "role": "user",
+          "parts": [
+            "\n\nYou are participating in a game played by 5 players over 21 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.",
+            "\n\n",
+            "\nHere are some sub-goals and guidance derived from your primary goal: \n - Estimate the average of the numbers chosen so far: This will give you a reference point for your own selection.\n - Consider the distribution of the numbers chosen so far: Are they evenly distributed, or are there any clusters or outliers? This information can help you make a more informed decision about your own selection.\n - Focus on numbers within the estimated range: Choose a number that is within the range of possible averages.\n - Consider the distribution of chosen numbers: If other players have chosen numbers towards the lower or higher end of the range, adjust your selection accordingly.\n - Estimate the average of all chosen numbers: Observe the numbers chosen by other players. Consider the range of possible numbers (0-100). Make an educated guess based on the observed data.\n\nIn this round, You should try to improve your game strategy based on these guidance, in order to achieve your primary objective.\n "
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"40\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 2 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Now round 2 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Now round 2 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 2:\n\nAverage Number Chosen: 41.4\nTarget Number (2/3 of Average): 27.60\nWinning Number: 33.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"40\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 3 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 3:\n\nAverage Number Chosen: 33.6\nTarget Number (2/3 of Average): 22.40\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"45\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 4 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 4:\n\nAverage Number Chosen: 25.2\nTarget Number (2/3 of Average): 16.80\nWinning Number: 20.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"30\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 5 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 5:\n\nAverage Number Chosen: 25.4\nTarget Number (2/3 of Average): 16.93\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"15\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 6 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 6:\n\nAverage Number Chosen: 27.8\nTarget Number (2/3 of Average): 18.53\nWinning Number: 20.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"12\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 7 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 7:\n\nAverage Number Chosen: 35.4\nTarget Number (2/3 of Average): 23.60\nWinning Number: 23.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"30\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 8 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 8:\n\nAverage Number Chosen: 23.8\nTarget Number (2/3 of Average): 15.87\nWinning Number: 22.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"22\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 9 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 9:\n\nAverage Number Chosen: 16.8\nTarget Number (2/3 of Average): 11.20\nWinning Number: 16.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"16\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 10 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 10:\n\nAverage Number Chosen: 20.8\nTarget Number (2/3 of Average): 13.87\nWinning Number: 16.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"20\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 11 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 11:\n\nAverage Number Chosen: 20.6\nTarget Number (2/3 of Average): 13.73\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"18\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 12 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 12:\n\nAverage Number Chosen: 21\nTarget Number (2/3 of Average): 14.00\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"15\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 13 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 13:\n\nAverage Number Chosen: 17.8\nTarget Number (2/3 of Average): 11.87\nWinning Number: 16.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"18\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 14 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 14:\n\nAverage Number Chosen: 17\nTarget Number (2/3 of Average): 11.33\nWinning Number: 14.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"15\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 15 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 15:\n\nAverage Number Chosen: 21.2\nTarget Number (2/3 of Average): 14.13\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"22\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 16 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 16:\n\nAverage Number Chosen: 17.8\nTarget Number (2/3 of Average): 11.87\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"18\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 17 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 17:\n\nAverage Number Chosen: 18\nTarget Number (2/3 of Average): 12.00\nWinning Number: 13.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"13\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 18 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 18:\n\nAverage Number Chosen: 18.2\nTarget Number (2/3 of Average): 12.13\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"18\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 19 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 19:\n\nAverage Number Chosen: 18\nTarget Number (2/3 of Average): 12.00\nWinning Number: 13.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"13\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 20 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 20:\n\nAverage Number Chosen: 16.6\nTarget Number (2/3 of Average): 11.07\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"15\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 21 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 21:\n\nAverage Number Chosen: 17.4\nTarget Number (2/3 of Average): 11.60\nWinning Number: 14.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"15\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost."
+          ]
+        }
+      ],
+      "records": [
+        40,
+        40,
+        45,
+        30,
+        15,
+        12,
+        30,
+        22,
+        16,
+        20,
+        18,
+        15,
+        18,
+        15,
+        22,
+        18,
+        13,
+        18,
+        13,
+        15,
+        15
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": {
+        "0": "Identify the minimum and maximum numbers chosen so far: This will give you a sense of the range of possible numbers.",
+        "1": "Estimate the average of the numbers chosen so far: This will give you a reference point for your own selection.",
+        "2": "Consider the distribution of the numbers chosen so far: Are they evenly distributed, or are there any clusters or outliers? This information can help you make a more informed decision about your own selection.",
+        "3": "If the range of numbers chosen is wide: You may want to choose a number closer to the average. This will increase your chances of being close to the target number.",
+        "4": "Consider the frequency of different numbers being chosen: Which numbers have been chosen the most frequently? Which numbers have been chosen the least frequently? This information can help you identify which numbers are more likely to be chosen in the future.",
+        "5": "Estimate the range of possible averages: Consider the minimum and maximum possible numbers (0 and 100). Calculate the range of possible averages: (0 + 100) / 2 = 50.",
+        "6": "Eliminate extreme values: Identify numbers that are significantly lower or higher than the estimated range of possible averages. For example, if the estimated range is 20-80, eliminate numbers below 10 or above 90.",
+        "7": "Focus on numbers within the estimated range: Choose a number that is within the range of possible averages.",
+        "8": "Avoid extreme values: Do not select numbers that are too close to 0 or 100.",
+        "9": "Consider the distribution of chosen numbers: If other players have chosen numbers towards the lower or higher end of the range, adjust your selection accordingly.",
+        "10": "Observe the range of numbers chosen in previous rounds: This can give you an idea of the possible range of numbers that might be chosen in the current round.",
+        "11": "Consider the strategies of other players: Try to anticipate the choices that other players might make based on their previous behavior. For example, if a player has consistently chosen numbers close to the target number in the past, they may be likely to do so again.",
+        "12": "Make adjustments based on previous rounds: If you have played multiple rounds of the game, consider the average numbers chosen in previous rounds. This can help you refine your estimate for the current round.",
+        "13": "Fine-grained guidelines: {'If the result is exactly halfway between two integers, round up to the higher integer': 'If the result is exactly halfway between two integers, round up to the higher integer for accuracy.'}",
+        "14": "Brief guidelines: {'Consider the distribution of numbers chosen by other players': 'Consider the distribution of numbers chosen by other players to adjust your estimate accordingly.', 'Adjust your estimate based on the target number': 'Adjust your estimate based on the target number; higher for a relatively high target number and lower for a relatively low target number.', \"Don't be afraid to adjust your estimate as the game progresses\": \"As the game progresses and more numbers are observed, don't hesitate to adjust your estimate to improve your chances of winning.\"}",
+        "15": "Identify the range of numbers chosen: Note the minimum and maximum numbers chosen by other players. This will give you an idea of the overall spread of the distribution.",
+        "16": "Look for patterns or trends: Are there any noticeable patterns in the distribution? For example, are certain numbers being chosen more frequently than others? Are there any gaps in the distribution?",
+        "17": "Consider the distribution of chosen numbers: If most players choose numbers in a certain range, the average is likely to be within that range. If the numbers chosen are spread out, the average is likely to be closer to the middle of the range.",
+        "18": "Round the result to the nearest integer: The target number is always an integer, so you need to round your calculated value to the nearest integer. This may involve rounding up or down, depending on the value.",
+        "19": "Identify patterns and trends: Analyze the sequence of numbers chosen over multiple rounds. Look for patterns or trends that may indicate players' preferences or biases.",
+        "20": "Consider the number of rounds played: As more rounds are played, the estimate of the average becomes more accurate. Adjust your estimate based on the number of rounds that have passed.",
+        "21": "Incorporate new information: As you observe new numbers, update your estimate of the average. Give more weight to recent numbers, as they are more likely to reflect the current trend.",
+        "22": "Observe the distribution of chosen numbers: Note the range of numbers chosen by other players. Identify any patterns or trends in the distribution. Consider the frequency of different numbers being chosen.",
+        "23": "Consider the possible range of numbers: Remember that all chosen numbers must be between 0 and 100. This range can help you narrow down your estimate.",
+        "24": "Estimate the average of all chosen numbers: Observe the numbers chosen by other players. Consider the range of possible numbers (0-100). Make an educated guess based on the observed data.",
+        "25": "Adjust your selection: If your estimate of the average changes significantly, adjust your selection accordingly. Consider the distribution of numbers chosen by other players and the potential strategies they might be using.",
+        "26": "Consider the potential strategies of other players: Anticipate the choices that other players might make based on their previous behavior. Adjust your own strategy accordingly to increase your chances of winning.",
+        "27": "Be flexible and adaptable: The game is constantly changing, so be prepared to adjust your strategy as needed. Pay attention to the feedback you receive from the game and make changes accordingly.",
+        "28": "Adjust your strategy accordingly: Based on your observations, adjust your own strategy to increase your chances of winning. For example, if you notice that other players are choosing higher numbers, you might choose a lower number to increase your chances of being closer to 2/3 of the average.",
+        "29": "Be willing to experiment: Don't be afraid to try different strategies and see what works best. The game is dynamic, so there is no one-size-fits-all approach.",
+        "30": "Stay calm and focused: It's important to stay calm and focused during the game. This will help you make clear decisions and avoid making mistakes.",
+        "31": "Consider their motivations: Think about the motivations of other players. Are they trying to win by choosing a number very close to the target, or are they playing more conservatively to avoid losing?",
+        "32": "Predict their choices: Based on your analysis of their patterns and motivations, try to predict the range of numbers that other players might choose in the current round."
+      },
+      "arms_cnt": [
+        1,
+        5,
+        12,
+        20,
+        24,
+        33
+      ]
+    },
+    {
+      "model": "gemini-pro",
+      "id": "player_1",
+      "learning_strategy": "none",
+      "retrieve_strategy": "gemini-pro",
+      "prompt": [
+        {
+          "role": "user",
+          "parts": [
+            "\n\nYou are participating in a game played by 5 players over 21 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.",
+            "\n\n",
+            "\nHere are some sub-goals and guidance derived from your primary goal: \n - Identify the minimum number chosen: Examine the chosen numbers from previous rounds. Note the lowest number chosen so far. Consider the possibility that the minimum number could be lower than any number chosen in previous rounds.\n - Calculate the sum: Iterate through the list of chosen numbers and add them together.\n - Use mathematical reasoning: The average of a set of numbers is equal to the sum of the numbers divided by the number of numbers. You can use this formula to calculate the average of the chosen numbers, if you have access to that information.\n - Round the result to the nearest integer: The target number is always an integer, so your estimate should be rounded to the nearest integer.\n - Calculate 2/3 of the estimated average: Multiply the estimated average by 2/3 to get the target number.\n\nIn this round, You should try to improve your game strategy based on these guidance, in order to achieve your primary objective.\n "
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"35\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 2 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Now round 2 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 2:\n\nAverage Number Chosen: 41.4\nTarget Number (2/3 of Average): 27.60\nWinning Number: 33.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"45\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 3 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 3:\n\nAverage Number Chosen: 33.6\nTarget Number (2/3 of Average): 22.40\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"30\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 4 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 4:\n\nAverage Number Chosen: 25.2\nTarget Number (2/3 of Average): 16.80\nWinning Number: 20.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"20\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 5 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 5:\n\nAverage Number Chosen: 25.4\nTarget Number (2/3 of Average): 16.93\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 6 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 6:\n\nAverage Number Chosen: 27.8\nTarget Number (2/3 of Average): 18.53\nWinning Number: 20.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"20\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 7 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 7:\n\nAverage Number Chosen: 35.4\nTarget Number (2/3 of Average): 23.60\nWinning Number: 23.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"22\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 8 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 8:\n\nAverage Number Chosen: 23.8\nTarget Number (2/3 of Average): 15.87\nWinning Number: 22.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"24\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 9 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 9:\n\nAverage Number Chosen: 16.8\nTarget Number (2/3 of Average): 11.20\nWinning Number: 16.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"16\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 10 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 10:\n\nAverage Number Chosen: 20.8\nTarget Number (2/3 of Average): 13.87\nWinning Number: 16.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"18\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 11 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 11:\n\nAverage Number Chosen: 20.6\nTarget Number (2/3 of Average): 13.73\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"15\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 12 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 12:\n\nAverage Number Chosen: 21\nTarget Number (2/3 of Average): 14.00\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"18\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 13 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 13:\n\nAverage Number Chosen: 17.8\nTarget Number (2/3 of Average): 11.87\nWinning Number: 16.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"16\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 14 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 14:\n\nAverage Number Chosen: 17\nTarget Number (2/3 of Average): 11.33\nWinning Number: 14.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"18\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 15 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 15:\n\nAverage Number Chosen: 21.2\nTarget Number (2/3 of Average): 14.13\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"12\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 16 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 16:\n\nAverage Number Chosen: 17.8\nTarget Number (2/3 of Average): 11.87\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"16\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 17 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 17:\n\nAverage Number Chosen: 18\nTarget Number (2/3 of Average): 12.00\nWinning Number: 13.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"18\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 18 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 18:\n\nAverage Number Chosen: 18.2\nTarget Number (2/3 of Average): 12.13\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"18\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 19 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 19:\n\nAverage Number Chosen: 18\nTarget Number (2/3 of Average): 12.00\nWinning Number: 13.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"18\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 20 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 20:\n\nAverage Number Chosen: 16.6\nTarget Number (2/3 of Average): 11.07\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"18\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 21 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 21:\n\nAverage Number Chosen: 17.4\nTarget Number (2/3 of Average): 11.60\nWinning Number: 14.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"18\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost."
+          ]
+        }
+      ],
+      "records": [
+        35,
+        45,
+        30,
+        20,
+        27,
+        20,
+        22,
+        24,
+        16,
+        18,
+        15,
+        18,
+        16,
+        18,
+        12,
+        16,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": {
+        "0": "Identify the minimum number chosen: Examine the chosen numbers from previous rounds. Note the lowest number chosen so far. Consider the possibility that the minimum number could be lower than any number chosen in previous rounds.",
+        "1": "Brief guidelines: {'Pay attention to the distribution of chosen numbers': 'Are the numbers clustered around a certain range, or are they spread out?', 'Consider the strategies of other players': 'Are they choosing numbers randomly, or are they following a specific pattern?', 'Use your knowledge of the game': 'The range of possible numbers is 0-100. Consider the likelihood of players choosing numbers at the extremes of this range.', 'Make educated guesses': 'Based on the available information, make an informed estimate of the minimum and maximum numbers that could be chosen.'}",
+        "2": "Count the frequency of each number: Note how many times each number has been chosen.",
+        "3": "Look for outliers: Identify any numbers that are significantly higher or lower than the average.",
+        "4": "Identify clusters: Observe if there are groups of numbers that are chosen more frequently than others.",
+        "5": "Consider the range of possible numbers: The possible numbers range from 0 to 100. However, it's unlikely that all numbers will be chosen with equal probability.",
+        "6": "Sum up all the chosen numbers: Keep a running total of all the numbers chosen by the players. Add each new number to the total.",
+        "7": "Count the total number of players: Keep track of the number of players in the game. This information is usually provided by the game master.",
+        "8": "Keep track of the chosen numbers: Use a list or array to store the chosen numbers. Update the list as each player makes their selection.",
+        "9": "Calculate the sum: Iterate through the list of chosen numbers and add them together.",
+        "10": "Round the result: Round the mean to the nearest integer.",
+        "11": "Calculate the median: Arrange the chosen numbers in ascending order. If there is an odd number of players, the median is the middle number. If there is an even number of players, the median is the average of the two middle numbers.",
+        "12": "Identify the mode: The mode is the number that occurs most frequently. If there is more than one mode, the distribution is multimodal.",
+        "13": "Consider the potential strategies of other players: Anticipate the choices that other players might make. Consider their motivations and goals. Adjust your estimate of the central tendency based on your predictions.",
+        "14": "Adjust your estimate based on previous rounds: If you have played multiple rounds, consider the average chosen numbers from those rounds. This can help you refine your estimate for the current round.",
+        "15": "Make a conservative estimate: It's better to underestimate the average than to overestimate it. This will increase your chances of choosing a number that is closer to 2/3 of the average.",
+        "16": "Consider the number of players: The more players there are, the wider the distribution of chosen numbers is likely to be.",
+        "17": "Use mathematical reasoning: The average of a set of numbers is equal to the sum of the numbers divided by the number of numbers. You can use this formula to calculate the average of the chosen numbers, if you have access to that information.",
+        "18": "Estimate the range of numbers chosen by other players: Observe the numbers chosen in previous rounds. Consider the possible strategies of other players. Estimate the minimum and maximum numbers that are likely to be chosen.",
+        "19": "Adjust your estimate based on the distribution: If the distribution is skewed towards higher numbers, increase your estimate. If the distribution is skewed towards lower numbers, decrease your estimate.",
+        "20": "Round the result to the nearest integer: The target number is always an integer, so your estimate should be rounded to the nearest integer.",
+        "21": "Consider the potential strategies of other players: If you believe that other players are likely to choose numbers close to the average, you may want to adjust your estimate slightly higher or lower.",
+        "22": "Consider the frequency of different numbers being chosen: How often is each number being chosen? This information can help you identify which numbers are more likely to be chosen in the current round.",
+        "23": "Consider the range of possible numbers (0-100): Recognize that the average cannot be lower than 0 or higher than 100. Eliminate extreme values that are unlikely to be chosen.",
+        "24": "Identify the least frequently chosen numbers: Determine the numbers that have been chosen the least times.",
+        "25": "Consider the distribution of numbers: Observe the spread of numbers chosen. Are they evenly distributed or clustered around certain values?",
+        "26": "Look for patterns: Analyze the frequency data to identify any patterns or trends in the numbers chosen.",
+        "27": "Consider the strategies of other players: Infer the potential strategies of other players based on the frequency of their number choices.",
+        "28": "Detect patterns in the distribution: Look for any trends or patterns in the chosen numbers, such as clustering around certain values or gaps between numbers.",
+        "29": "Pay attention to the extreme values: The minimum and maximum numbers chosen can provide insights into the risk-taking behavior of other players.",
+        "30": "Estimate the spread of the distribution: {'Observe the range of numbers chosen by other players in previous rounds': 'By observing the range of numbers chosen by other players in previous rounds, you can gain insights into the spread of the distribution.', 'Consider the frequency of different numbers being chosen': \"Analyzing the frequency of different numbers being chosen provides further understanding of the distribution's spread.\", 'Determine if the distribution is wide or narrow': 'Based on the observed range and frequency, make a determination whether the distribution is wide or narrow.'}",
+        "31": "Adjust strategy based on spread: {'If the distribution is wide, consider choosing a number that is closer to the average to increase your chances of being close to the target number': 'In a wide distribution, selecting a number closer to the average can improve the likelihood of proximity to the target number.', 'If the distribution is narrow, consider choosing a number that is further from the average to differentiate yourself from other players': 'For a narrow distribution, opting for a number further from the average can help distinguish your choice from others.'}",
+        "32": "Brief guidelines: {'If the distribution is wide, choose a number that is within the middle 50% of the range': 'In a wide distribution, aim for a number within the middle 50% of the range to optimize your chances.', 'If the distribution is narrow, choose a number that is within the middle 25% of the range': 'For a narrow distribution, target a number within the middle 25% of the range to strategically position yourself.', 'If you are unsure about the spread of the distribution, choose a number that is close to the average': \"When uncertain about the distribution's spread, selecting a number close to the average can be a prudent approach.\"}",
+        "33": "Look for gaps in the distribution: Gaps between chosen numbers can suggest areas where players are avoiding certain values.",
+        "34": "Monitor changes over time: Observe how the distribution of chosen numbers evolves over multiple rounds. This can reveal shifts in strategies or biases.",
+        "35": "Identify patterns and trends: Analyze the sequence of numbers chosen over multiple rounds. Look for patterns or trends that could indicate strategic behavior or group dynamics.",
+        "36": "Make strategic adjustments to your selection: Based on your observations and analysis, make strategic adjustments to your own number selection. For example, if you notice that other players are consistently choosing high numbers, you may want to select a lower number to increase your chances of winning.",
+        "37": "Remain flexible and adaptable: The game is dynamic, and the strategies of other players may change over time. Be prepared to adjust your own strategy and tactics as needed.",
+        "38": "Estimate the average chosen number: Observe the numbers chosen by other players and make an educated guess about the average.",
+        "39": "Calculate 2/3 of the estimated average: Multiply the estimated average by 2/3 to get the target number.",
+        "40": "Choose a number below the target number: Since players may be overestimating the target number, choose a number that is slightly lower than the calculated target number.",
+        "41": "Monitor the choices of specific players: Are there any players who consistently choose numbers close to the target number? Are there any players who consistently choose numbers far from the target number?",
+        "42": "Adjust your strategy accordingly: If you notice that most players are choosing numbers close to the target number, you may want to choose a number slightly further away from the target. If you notice that a specific player is consistently choosing numbers close to the target number, you may want to choose a number close to their choice.",
+        "43": "Analyze player motivations: Try to understand why other players are choosing the numbers they are. Are they aiming to win by choosing the exact target number, or are they trying to avoid losing by choosing numbers far from the target?",
+        "44": "Predict player choices: Based on your analysis of common strategies and player motivations, make predictions about the numbers that other players are likely to choose in the current round.",
+        "45": "Monitor the choices of other players: As the round progresses, pay attention to the numbers that other players are choosing. This information can help you refine your predictions and adjust your strategy accordingly."
+      },
+      "arms_cnt": [
+        1,
+        5,
+        18,
+        30,
+        42,
+        46
+      ]
+    },
+    {
+      "model": "gemini-pro",
+      "id": "player_2",
+      "learning_strategy": "none",
+      "retrieve_strategy": "gemini-pro",
+      "prompt": [
+        {
+          "role": "user",
+          "parts": [
+            "\n\nYou are participating in a game played by 5 players over 21 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.",
+            "\n\n",
+            "\nHere are some sub-goals and guidance derived from your primary goal: \n - Identify the chosen numbers: Observe the numbers chosen by other players. Record your own chosen number.\n - Calculate the mean (average) of chosen numbers: Divide the sum of chosen numbers by the total number of players.\n - Note any gaps in the distribution: Are there any noticeable gaps in the sequence of numbers chosen? This could indicate that players are avoiding certain numbers or that there is a misunderstanding about the target number.\n - Look for any correlations between the numbers chosen by different players: Analyze the numbers chosen by different players in previous rounds. Identify any patterns or relationships between the numbers. Consider factors such as player strategies, communication, or external influences.\n - Observe the distribution of chosen numbers: Note the range of numbers chosen by other players. Identify any patterns or trends in the distribution. Consider the frequency of different numbers being chosen.\n\nIn this round, You should try to improve your game strategy based on these guidance, in order to achieve your primary objective.\n "
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"35\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 2 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 2:\n\nAverage Number Chosen: 41.4\nTarget Number (2/3 of Average): 27.60\nWinning Number: 33.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"44\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 3 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 3:\n\nAverage Number Chosen: 33.6\nTarget Number (2/3 of Average): 22.40\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 4 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 4:\n\nAverage Number Chosen: 25.2\nTarget Number (2/3 of Average): 16.80\nWinning Number: 20.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"30\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 5 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 5:\n\nAverage Number Chosen: 25.4\nTarget Number (2/3 of Average): 16.93\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"35\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 6 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 6:\n\nAverage Number Chosen: 27.8\nTarget Number (2/3 of Average): 18.53\nWinning Number: 20.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"20\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 7 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 7:\n\nAverage Number Chosen: 35.4\nTarget Number (2/3 of Average): 23.60\nWinning Number: 23.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"22\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 8 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 8:\n\nAverage Number Chosen: 23.8\nTarget Number (2/3 of Average): 15.87\nWinning Number: 22.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"25\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 9 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 9:\n\nAverage Number Chosen: 16.8\nTarget Number (2/3 of Average): 11.20\nWinning Number: 16.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"18\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 10 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 10:\n\nAverage Number Chosen: 20.8\nTarget Number (2/3 of Average): 13.87\nWinning Number: 16.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"30\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 11 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 11:\n\nAverage Number Chosen: 20.6\nTarget Number (2/3 of Average): 13.73\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"15\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 12 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 12:\n\nAverage Number Chosen: 21\nTarget Number (2/3 of Average): 14.00\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"18\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 13 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 13:\n\nAverage Number Chosen: 17.8\nTarget Number (2/3 of Average): 11.87\nWinning Number: 16.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"17\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 14 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 14:\n\nAverage Number Chosen: 17\nTarget Number (2/3 of Average): 11.33\nWinning Number: 14.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"15\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 15 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 15:\n\nAverage Number Chosen: 21.2\nTarget Number (2/3 of Average): 14.13\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"15\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 16 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 16:\n\nAverage Number Chosen: 17.8\nTarget Number (2/3 of Average): 11.87\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"15\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 17 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 17:\n\nAverage Number Chosen: 18\nTarget Number (2/3 of Average): 12.00\nWinning Number: 13.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"15\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 18 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 18:\n\nAverage Number Chosen: 18.2\nTarget Number (2/3 of Average): 12.13\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"15\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 19 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 19:\n\nAverage Number Chosen: 18\nTarget Number (2/3 of Average): 12.00\nWinning Number: 13.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"15\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 20 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 20:\n\nAverage Number Chosen: 16.6\nTarget Number (2/3 of Average): 11.07\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"15\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 21 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 21:\n\nAverage Number Chosen: 17.4\nTarget Number (2/3 of Average): 11.60\nWinning Number: 14.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"15\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost."
+          ]
+        }
+      ],
+      "records": [
+        35,
+        44,
+        27,
+        30,
+        35,
+        20,
+        22,
+        25,
+        18,
+        30,
+        15,
+        18,
+        17,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": {
+        "0": "Identify the chosen numbers: Observe the numbers chosen by other players. Record your own chosen number.",
+        "1": "Calculate the sum of chosen numbers: Add up all the chosen numbers.",
+        "2": "Calculate the mean (average) of chosen numbers: Divide the sum of chosen numbers by the total number of players.",
+        "3": "Identify the median of chosen numbers: Sort the chosen numbers in ascending order. If there is an odd number of chosen numbers, the median is the middle number. If there is an even number of chosen numbers, the median is the average of the two middle numbers.",
+        "4": "Create a histogram or frequency table: Plot the frequency of each number chosen to visualize the distribution.",
+        "5": "Look for outliers: Identify any numbers that are significantly different from the rest of the distribution. These could indicate strategic choices or random fluctuations.",
+        "6": "Identify clusters: Look for groups of numbers that are chosen more frequently than others. These could indicate patterns or biases in player behavior.",
+        "7": "Consider the impact of previous rounds: Analyze how the distribution of chosen numbers has changed over time. This can help you anticipate the choices of other players in future rounds.",
+        "8": "Consider the range of possible numbers: The possible numbers range from 0 to 100. However, based on previous rounds, you may be able to narrow down the likely range.",
+        "9": "Note any gaps in the distribution: Are there any noticeable gaps in the sequence of numbers chosen? This could indicate that players are avoiding certain numbers or that there is a misunderstanding about the target number.",
+        "10": "Consider the distribution of winning numbers: If there is a pattern to the winning numbers, this could provide insights into the optimal strategy for choosing a number.",
+        "11": "Estimate the likelihood of different numbers being chosen: Based on the observed distribution and player strategies, estimate the probability of each number being chosen. Consider the frequency of certain numbers appearing in previous rounds.",
+        "12": "Look for patterns: Are there any patterns in the numbers chosen, such as a preference for round numbers or numbers that are multiples of 5?",
+        "13": "Calculate the mean: Sum all the numbers chosen so far. Divide the sum by the total number of numbers. The result is the mean.",
+        "14": "Calculate the mode: Find the number that occurs most frequently in the list of numbers chosen so far. If there is a tie, there is more than one mode.",
+        "15": "Brief guidelines: {'The mean is a good measure of central tendency when the data is normally distributed.': '', 'The median is a good measure of central tendency when the data is skewed or has outliers.': '', 'The mode is a good measure of central tendency when there is a clear peak in the distribution of the data.': ''}",
+        "16": "Adjust your estimate based on new information: As more numbers are chosen, update your estimate of the average accordingly.",
+        "17": "Estimate the range of possible numbers: {'Consider the minimum and maximum possible numbers': 'Consider the minimum and maximum possible numbers (0 and 100).', 'Observe the distribution of numbers chosen in previous rounds': 'Observe the distribution of numbers chosen in previous rounds.', 'Identify any patterns or trends in the data': 'Identify any patterns or trends in the data.'}",
+        "18": "Refine the estimate: {'Calculate the average of the numbers chosen in previous rounds': 'Calculate the average of the numbers chosen in previous rounds.', 'Adjust the estimate based on the observed distribution and patterns': 'Adjust the estimate based on the observed distribution and patterns.', 'Consider the number of players and the likelihood of extreme values': 'Consider the number of players and the likelihood of extreme values.'}",
+        "19": "Determine if the distribution is skewed or symmetrical: Create a histogram or scatter plot of the numbers chosen. Observe the shape of the distribution. Determine if the distribution is skewed towards higher or lower numbers, or if it is symmetrical.",
+        "20": "Look for any correlations between the numbers chosen by different players: Analyze the numbers chosen by different players in previous rounds. Identify any patterns or relationships between the numbers. Consider factors such as player strategies, communication, or external influences.",
+        "21": "Brief guidelines: Pay attention to the range and spread of the numbers chosen. Consider the frequency of different numbers. Look for any unusual patterns or deviations from the expected distribution. Use statistical tools or visualizations to aid in your analysis.",
+        "22": "Use statistical measures: {'Calculate the mean, median, and mode of the numbers chosen in previous rounds': 'Calculate the mean, median, and mode of the numbers chosen in previous rounds.', 'Use standard deviation to measure the spread of the data': 'Use standard deviation to measure the spread of the data.', 'Apply statistical tests to identify significant differences or patterns': 'Apply statistical tests to identify significant differences or patterns.'}",
+        "23": "Adjust your estimate based on outliers: If there are any outliers (very high or low numbers), consider whether they are likely to be representative of the overall distribution. If not, you may want to adjust your estimate accordingly.",
+        "24": "Observe the distribution of chosen numbers: Note the range of numbers chosen by other players. Identify any patterns or trends in the distribution. Consider the frequency of different numbers being chosen.",
+        "25": "Round the result to the nearest integer: If the result is a whole number, it is already rounded. If the result is a decimal, round it to the nearest whole number. For example, if the result is 12.5, round it to 13. If the result is 12.4, round it to 12.",
+        "26": "Guidelines: Be precise in your calculations. Double-check your work to ensure accuracy. Consider the potential strategies of other players when estimating the average. Adjust your estimate and target number based on the observed choices of other players.",
+        "27": "Estimate the average number within the identified range: Calculate the average of the numbers chosen within the identified range. This will provide a more refined estimate of the average number chosen by other players.",
+        "28": "Choose a number close to the adjusted target number: Select a number that is as close as possible to the adjusted target number. Consider the distribution of numbers chosen within the identified range and adjust your selection accordingly.",
+        "29": "Adjust your estimate based on the target number: If the target number is significantly different from your initial estimate, you may need to adjust your estimate accordingly.",
+        "30": "Round the result to the nearest integer: The target number is always an integer, so your final choice should also be an integer.",
+        "31": "Consider the number of players: If there are a large number of players, the average is likely to be closer to the middle of the range (50). If there are a small number of players, the average could be more variable.",
+        "32": "Consider the previous rounds: If you have won or lost in previous rounds, adjust your strategy accordingly. If you have consistently chosen numbers that are too high or too low, try to adjust your estimate of the average.",
+        "33": "Be flexible and adaptable: The game is constantly changing, so be prepared to adjust your strategy based on the choices of other players and the results of previous rounds.",
+        "34": "Identify the range of numbers chosen: Determine the minimum and maximum numbers selected by other players. This can give you an idea of the overall spread of the distribution.",
+        "35": "Consider the distribution shape: Is the distribution symmetrical or skewed? Are there any outliers or gaps in the data? This information can help you understand the underlying strategies of the players.",
+        "36": "Look for patterns: Are there any noticeable patterns in the distribution, such as clustering or gaps? These patterns can provide clues about the players' thought processes and decision-making.",
+        "37": "Avoid choosing numbers in that range: If a certain range of numbers is being chosen frequently, it is less likely that the target number will fall within that range. Adjust your strategy to avoid choosing numbers in that range.",
+        "38": "Identify patterns and trends: Analyze the sequence of numbers chosen over multiple rounds. Look for patterns or trends that could indicate strategic behavior or group dynamics.",
+        "39": "Consider the motivations of other players: Try to understand the motivations and goals of other players. Are they aiming for the highest possible number, the lowest possible number, or a specific target number?",
+        "40": "Adjust your estimate of the average: Based on the observed distribution and patterns, refine your estimate of the average number that will be chosen. This will help you recalculate the target number.",
+        "41": "Identify common strategies: Consider the strategies that other players have employed in previous rounds. Are they consistently choosing high numbers, low numbers, or numbers close to the average?",
+        "42": "Analyze player motivations: Try to understand why other players are choosing the numbers they are. Are they aiming to win by choosing a number very close to 2/3 of the average, or are they playing more conservatively to avoid losing?",
+        "43": "Predict player choices: Based on your analysis of common strategies and player motivations, make predictions about the numbers that other players are likely to choose in the current round.",
+        "44": "Calculate the target number (2/3 of the predicted average): Multiply the predicted average by 2/3. Round the result to the nearest integer.",
+        "45": "Choose a number close to the target number: If you anticipate that other players will choose high numbers, select a number below the target number. If you expect other players to choose low numbers, select a number above the target number.",
+        "46": "Anticipate their future choices: Based on their previous choices and motivations, try to predict what numbers other players might choose in the current round.",
+        "47": "Adjust your strategy accordingly: Use your predictions to adjust your own strategy. For example, if you anticipate that other players will choose high numbers, you might choose a lower number to increase your chances of being closer to the target number.",
+        "48": "Monitor player choices: Pay attention to the numbers that other players choose during the round. If you notice that your predictions were incorrect, adjust your strategy accordingly."
+      },
+      "arms_cnt": [
+        1,
+        5,
+        20,
+        31,
+        40,
+        49
+      ]
+    },
+    {
+      "model": "gemini-pro",
+      "id": "player_3",
+      "learning_strategy": "none",
+      "retrieve_strategy": "gemini-pro",
+      "prompt": [
+        {
+          "role": "user",
+          "parts": [
+            "\n\nYou are participating in a game played by 5 players over 21 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.",
+            "\n\n",
+            "\nHere are some sub-goals and guidance derived from your primary goal: \n - Estimate the range of chosen numbers: Note the highest and lowest numbers chosen in previous rounds. Consider the possible strategies of other players. Are they likely to choose extreme values or numbers closer to the average?\n - Consider the impact of previous winning numbers: If a particular number has won in previous rounds, it may influence the choices of other players. Observe if there is a tendency to choose numbers close to or far from the previous winning number.\n - Calculate the midpoint of the range: If the numbers are spread out, the average is likely to be closer to the middle of the range (50).\n - Start with a conservative estimate: It's better to underestimate the average than to overestimate it.\n - Consider the distribution of chosen numbers: If most players choose numbers in a certain range, your estimate should be closer to that range. If the numbers are spread out evenly, your estimate should be closer to the middle of the range.\n\nIn this round, You should try to improve your game strategy based on these guidance, in order to achieve your primary objective.\n "
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"32\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 2 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 2:\n\nAverage Number Chosen: 41.4\nTarget Number (2/3 of Average): 27.60\nWinning Number: 33.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"33\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 3 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 3:\n\nAverage Number Chosen: 33.6\nTarget Number (2/3 of Average): 22.40\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"28\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 4 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 4:\n\nAverage Number Chosen: 25.2\nTarget Number (2/3 of Average): 16.80\nWinning Number: 20.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"23\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 5 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 5:\n\nAverage Number Chosen: 25.4\nTarget Number (2/3 of Average): 16.93\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"20\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 6 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 6:\n\nAverage Number Chosen: 27.8\nTarget Number (2/3 of Average): 18.53\nWinning Number: 20.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"22\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 7 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Now round 7 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 7:\n\nAverage Number Chosen: 35.4\nTarget Number (2/3 of Average): 23.60\nWinning Number: 23.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"23\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 8 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 8:\n\nAverage Number Chosen: 23.8\nTarget Number (2/3 of Average): 15.87\nWinning Number: 22.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"25\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 9 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 9:\n\nAverage Number Chosen: 16.8\nTarget Number (2/3 of Average): 11.20\nWinning Number: 16.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"17\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 10 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 10:\n\nAverage Number Chosen: 20.8\nTarget Number (2/3 of Average): 13.87\nWinning Number: 16.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"16\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 11 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 11:\n\nAverage Number Chosen: 20.6\nTarget Number (2/3 of Average): 13.73\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"18\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 12 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 12:\n\nAverage Number Chosen: 21\nTarget Number (2/3 of Average): 14.00\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"19\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 13 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 13:\n\nAverage Number Chosen: 17.8\nTarget Number (2/3 of Average): 11.87\nWinning Number: 16.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"16\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 14 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 14:\n\nAverage Number Chosen: 17\nTarget Number (2/3 of Average): 11.33\nWinning Number: 14.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"14\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 15 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 15:\n\nAverage Number Chosen: 21.2\nTarget Number (2/3 of Average): 14.13\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"12\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 16 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 16:\n\nAverage Number Chosen: 17.8\nTarget Number (2/3 of Average): 11.87\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"15\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 17 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 17:\n\nAverage Number Chosen: 18\nTarget Number (2/3 of Average): 12.00\nWinning Number: 13.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"14\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 18 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 18:\n\nAverage Number Chosen: 18.2\nTarget Number (2/3 of Average): 12.13\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"15\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 19 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 19:\n\nAverage Number Chosen: 18\nTarget Number (2/3 of Average): 12.00\nWinning Number: 13.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"14\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 20 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 20:\n\nAverage Number Chosen: 16.6\nTarget Number (2/3 of Average): 11.07\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"15\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 21 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 21:\n\nAverage Number Chosen: 17.4\nTarget Number (2/3 of Average): 11.60\nWinning Number: 14.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"14\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won."
+          ]
+        }
+      ],
+      "records": [
+        32,
+        33,
+        28,
+        23,
+        20,
+        22,
+        23,
+        25,
+        17,
+        16,
+        18,
+        19,
+        16,
+        14,
+        12,
+        15,
+        14,
+        15,
+        14,
+        15,
+        14
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": {
+        "0": "Estimate the range of chosen numbers: Note the highest and lowest numbers chosen in previous rounds. Consider the possible strategies of other players. Are they likely to choose extreme values or numbers closer to the average?",
+        "1": "Identify any clusters or patterns: Look for groups of numbers that are close together. Determine if there is a dominant cluster or if the numbers are more evenly distributed.",
+        "2": "Consider the impact of previous winning numbers: If a particular number has won in previous rounds, it may influence the choices of other players. Observe if there is a tendency to choose numbers close to or far from the previous winning number.",
+        "3": "Consider the number of players: The more players there are, the wider the distribution of chosen numbers is likely to be.",
+        "4": "Identify the minimum value chosen: {'Scan the previous game log for the lowest number chosen by other players.': 'Review the history of previous games to identify the smallest number selected by other players.', 'Consider the possibility that the minimum value could be lower than any number observed in the log.': 'Acknowledge that the minimum value chosen by other players in the current game may be lower than any previously observed number.'}",
+        "5": "Identify the maximum value chosen: {'Scan the previous game log for the highest number chosen by other players.': 'Examine the records of past games to determine the highest number selected by other players.', 'Consider the possibility that the maximum value could be higher than any number observed in the log.': 'Recognize that the maximum value chosen by other players in the current game may exceed any previously observed number.'}",
+        "6": "Brief guidelines: {'Pay attention to the distribution of numbers chosen by other players.': 'Observe the pattern or spread of numbers selected by other players to gain insights into their potential range of choices.', 'Consider the strategies that other players might be using.': 'Contemplate the potential tactics or approaches employed by other players to inform your estimation of their number range.', 'Adjust your estimate of the range based on the results of previous rounds.': 'Modify your assessment of the number range based on the outcomes and choices observed in previous rounds of the game.', 'Be prepared to adjust your estimate if you observe any unexpected choices from other players.': 'Remain flexible and ready to revise your estimation of the number range if unexpected selections are made by other players.'}",
+        "7": "Consider the frequency of numbers: Pay attention to which numbers are chosen more often than others.",
+        "8": "Estimate the center of the cluster: If the numbers are clustered, the average is likely to be close to the center of the cluster.",
+        "9": "Calculate the midpoint of the range: If the numbers are spread out, the average is likely to be closer to the middle of the range (50).",
+        "10": "Adjust your estimate based on frequency: If a particular number is chosen significantly more often than others, consider giving it more weight in your estimate.",
+        "11": "Refine your estimate over time: As you observe more numbers, you can refine your estimate of the average.",
+        "12": "Calculate the difference between the average number chosen and your previous estimate: Subtract your previous estimate from the average number chosen. This difference represents the error in your estimate.",
+        "13": "Calculate the difference between the target number and your chosen number: Subtract your chosen number from the target number. If the result is positive, your estimate was too low. If the result is negative, your estimate was too high.",
+        "14": "Analyze the difference: If the difference is large, it indicates that your estimate was significantly off. If the difference is small, it suggests that your estimate was relatively close.",
+        "15": "Consider the distribution of chosen numbers: If your chosen number is significantly lower or higher than the average of all chosen numbers, it may indicate that you underestimated or overestimated the average. If your chosen number is close to the average, it suggests that your estimate of the average was relatively accurate.",
+        "16": "Adjust your strategy: If your estimate was too low, consider choosing a higher number in the next round. If your estimate was too high, consider choosing a lower number in the next round.",
+        "17": "Adjust your estimate accordingly: If your estimate was too low, increase it by a fraction of the error. If your estimate was too high, decrease it by a fraction of the error.",
+        "18": "Consider the magnitude of the error: If the error is large, adjust your estimate more significantly. If the error is small, adjust your estimate less significantly.",
+        "19": "Repeat the process for subsequent rounds: After each round, calculate the error and adjust your estimate accordingly. This iterative process will help you refine your estimate over time.",
+        "20": "Start with a conservative estimate: It's better to underestimate the average than to overestimate it.",
+        "21": "Be flexible and adapt your estimate: As you observe more data, be willing to adjust your estimate accordingly.",
+        "22": "Estimate the average of all chosen numbers: {'Observe the numbers chosen by other players': 'Observe the numbers chosen by other players.', 'Consider the range of possible numbers (0-100)': 'Consider the range of possible numbers (0-100).', 'Make an educated guess based on the observed data': 'Make an educated guess based on the observed data.'}",
+        "23": "Adjust your estimate based on the target number: If your estimated average is significantly higher than the target number, consider choosing a lower number. If your estimated average is significantly lower than the target number, consider choosing a higher number.",
+        "24": "Consider the potential strategies of other players: Anticipate the choices that other players might make. Consider their motivations and goals. Adjust your own strategy based on your predictions.",
+        "25": "Consider the distribution of chosen numbers: If most players choose numbers in a certain range, your estimate should be closer to that range. If the numbers are spread out evenly, your estimate should be closer to the middle of the range.",
+        "26": "Adjust your estimate based on previous rounds: If you have consistently overestimated or underestimated the average in previous rounds, adjust your estimate accordingly.",
+        "27": "Determine the decimal portion of the calculated target number: Subtract the integer part of the target number from the original calculated value.",
+        "28": "Compare the decimal portion to 0.5: If the decimal portion is greater than or equal to 0.5, round the target number up to the next integer. If the decimal portion is less than 0.5, round the target number down to the nearest integer.",
+        "29": "Consider the range of possible numbers (0-100): Recognize that the average cannot be lower than 0 or higher than 100. Eliminate extreme values that are unlikely to be chosen.",
+        "30": "Identify patterns and trends: Analyze the sequence of numbers chosen over multiple rounds. Look for patterns or trends that may indicate players' preferences or biases.",
+        "31": "Adjust your estimate of the average: Revise your estimate of the average number chosen based on the observed distribution and patterns.",
+        "32": "Recalculate the target number: Update your calculation of the target number (2/3 of the estimated average) accordingly.",
+        "33": "Make strategic adjustments to your own selection: Based on your analysis of other players' choices and the revised target number, adjust your own selection to increase your chances of winning.",
+        "34": "Be flexible and adaptable: The game is constantly changing, so be prepared to adjust your strategy as needed. If you notice that other players are changing their strategies, you may need to change yours as well.",
+        "35": "Identify common strategies: Consider the strategies that other players have employed in previous rounds. Are they consistently choosing high numbers, low numbers, or numbers close to the target?",
+        "36": "Analyze player motivations: Try to understand why other players are choosing the numbers they are. Are they aiming to win by choosing the exact target number, or are they playing more conservatively to avoid losing?",
+        "37": "Adjust predictions based on feedback: After each round, analyze the actual choices made by players and adjust your predictions accordingly. This will help you refine your understanding of player strategies and motivations.",
+        "38": "Adjust your strategy: Use your predictions to inform your own choice of number. If you anticipate that many players will choose high numbers, you may want to choose a lower number to increase your chances of being closer to the target.",
+        "39": "Determine the skewness of the distribution: If the majority of numbers chosen are higher than the average, the distribution is skewed towards higher numbers. If the majority of numbers chosen are lower than the average, the distribution is skewed towards lower numbers. If the numbers chosen are relatively evenly distributed, the distribution is relatively uniform.",
+        "40": "Monitor the choices of other players: Pay attention to the numbers chosen by other players in the current round. Adjust your estimate of the distribution and your own selection accordingly."
+      },
+      "arms_cnt": [
+        1,
+        5,
+        21,
+        22,
+        33,
+        41
+      ]
+    },
+    {
+      "model": "gemini-pro",
+      "id": "player_4",
+      "learning_strategy": "none",
+      "retrieve_strategy": "gemini-pro",
+      "prompt": [
+        {
+          "role": "user",
+          "parts": [
+            "\n\nYou are participating in a game played by 5 players over 21 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.",
+            "\n\n",
+            "\nHere are some sub-goals and guidance derived from your primary goal: \n - Estimate the average of the numbers chosen so far: This will give you a reference point for your own selection.\n - Consider choosing a number that is close to the average of the numbers chosen so far: This will increase your chances of being close to the target number.\n - Identify the range of numbers chosen: Note the minimum and maximum numbers chosen by other players. This will give you an idea of the overall spread of the distribution.\n - Consider the distribution in relation to the target number: How close are the chosen numbers to the target number? Are they mostly above or below the target? This information can help you adjust your own strategy.\n - Choose a number within the target range: Select a number that is within a reasonable range of the target number. Consider the distribution of numbers chosen by other players and aim for a number that is not too extreme or too close to the average.\n\nIn this round, You should try to improve your game strategy based on these guidance, in order to achieve your primary objective.\n "
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"33\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 2 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Now round 2 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 2:\n\nAverage Number Chosen: 41.4\nTarget Number (2/3 of Average): 27.60\nWinning Number: 33.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"45\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 3 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 3:\n\nAverage Number Chosen: 33.6\nTarget Number (2/3 of Average): 22.40\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"38\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 4 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 4:\n\nAverage Number Chosen: 25.2\nTarget Number (2/3 of Average): 16.80\nWinning Number: 20.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"23\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 5 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 5:\n\nAverage Number Chosen: 25.4\nTarget Number (2/3 of Average): 16.93\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"30\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 6 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 6:\n\nAverage Number Chosen: 27.8\nTarget Number (2/3 of Average): 18.53\nWinning Number: 20.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"65\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 7 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 7:\n\nAverage Number Chosen: 35.4\nTarget Number (2/3 of Average): 23.60\nWinning Number: 23.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"80\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 8 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 8:\n\nAverage Number Chosen: 23.8\nTarget Number (2/3 of Average): 15.87\nWinning Number: 22.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"23\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 9 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 9:\n\nAverage Number Chosen: 16.8\nTarget Number (2/3 of Average): 11.20\nWinning Number: 16.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"17\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 10 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 10:\n\nAverage Number Chosen: 20.8\nTarget Number (2/3 of Average): 13.87\nWinning Number: 16.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"20\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 11 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 11:\n\nAverage Number Chosen: 20.6\nTarget Number (2/3 of Average): 13.73\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"37\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 12 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 12:\n\nAverage Number Chosen: 21\nTarget Number (2/3 of Average): 14.00\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"35\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 13 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 13:\n\nAverage Number Chosen: 17.8\nTarget Number (2/3 of Average): 11.87\nWinning Number: 16.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"22\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 14 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 14:\n\nAverage Number Chosen: 17\nTarget Number (2/3 of Average): 11.33\nWinning Number: 14.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"23\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 15 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 15:\n\nAverage Number Chosen: 21.2\nTarget Number (2/3 of Average): 14.13\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"45\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 16 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 16:\n\nAverage Number Chosen: 17.8\nTarget Number (2/3 of Average): 11.87\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"25\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 17 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 17:\n\nAverage Number Chosen: 18\nTarget Number (2/3 of Average): 12.00\nWinning Number: 13.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"30\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 18 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 18:\n\nAverage Number Chosen: 18.2\nTarget Number (2/3 of Average): 12.13\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"25\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 19 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Now round 19 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 19:\n\nAverage Number Chosen: 18\nTarget Number (2/3 of Average): 12.00\nWinning Number: 13.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"30\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 20 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 20:\n\nAverage Number Chosen: 16.6\nTarget Number (2/3 of Average): 11.07\nWinning Number: 15.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"20\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost.",
+            "Now round 21 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Let's think step by step.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 21:\n\nAverage Number Chosen: 17.4\nTarget Number (2/3 of Average): 11.60\nWinning Number: 14.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"25\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Unfortunately you lost."
+          ]
+        }
+      ],
+      "records": [
+        33,
+        45,
+        38,
+        23,
+        30,
+        65,
+        80,
+        23,
+        17,
+        20,
+        37,
+        35,
+        22,
+        23,
+        45,
+        25,
+        30,
+        25,
+        30,
+        20,
+        25
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": {
+        "0": "Find the minimum number chosen: Scan the previous game log for the lowest number chosen by any player. This number represents the lower bound of the range of numbers that have been selected.",
+        "1": "Keep track of the minimum and maximum numbers chosen as the game progresses: Use this information to adjust your strategy and choose numbers that are within a reasonable range.",
+        "2": "Consider the distribution of numbers chosen by other players to make informed decisions: Avoid choosing numbers that are too extreme or too close to the average.",
+        "3": "Estimate the average of the numbers chosen so far: This will give you a reference point for your own selection.",
+        "4": "Identify clusters and outliers: Examine the chosen numbers to see if there are any groups of similar numbers or individual numbers that stand out as significantly different.",
+        "5": "Determine the spread of the distribution: Observe the range of chosen numbers and the frequency of each number. This will give you an idea of how evenly distributed the numbers are.",
+        "6": "If there are clusters or outliers: Consider choosing a number that is within a cluster or close to an outlier. This may increase your chances of being close to the target number, as other players may have chosen numbers in the same range.",
+        "7": "Consider the previous rounds: Analyze the distribution of chosen numbers in previous rounds to identify any patterns or trends. This information can help you make more informed predictions about the distribution in the current round.",
+        "8": "Avoid choosing numbers that are too close to the minimum or maximum: These numbers are less likely to be close to the target number.",
+        "9": "Consider choosing a number that is close to the average of the numbers chosen so far: This will increase your chances of being close to the target number.",
+        "10": "Consider the frequency of different numbers being chosen: Which numbers have been chosen most frequently? Which numbers have been chosen least frequently? This information can help you identify which numbers are more likely to be chosen in the future.",
+        "11": "Pay attention to the choices of other players: Observe the numbers chosen by other players, especially those who have been winning consistently. Try to understand their strategies and thought processes.",
+        "12": "Adjust your strategy based on your observations: Use the information you gather from observing the distribution of chosen numbers to adjust your own strategy. For example, if you notice that a certain range of numbers is being chosen frequently, you may want to avoid choosing numbers in that range.",
+        "13": "Consider the range of possible numbers (0-100): This provides a boundary for the possible average. Eliminate extreme values that are unlikely to be chosen.",
+        "14": "Identify the range of numbers chosen: Note the minimum and maximum numbers chosen by other players. This will give you an idea of the overall spread of the distribution.",
+        "15": "Consider the distribution in relation to the target number: How close are the chosen numbers to the target number? Are they mostly above or below the target? This information can help you adjust your own strategy.",
+        "16": "Identify the minimum and maximum numbers chosen by other players: This can be done by observing the previous game log.",
+        "17": "Calculate the minimum possible target number: Multiply the minimum number chosen by 2/3.",
+        "18": "Observe the range of chosen numbers in previous rounds: Note the minimum and maximum numbers chosen so far. This gives you an idea of the possible range of numbers that could be chosen in the current round.",
+        "19": "Consider the distribution of chosen numbers: If the numbers chosen in previous rounds have been evenly distributed, you can assume that the average will be closer to the middle of the range. If the numbers have been skewed towards one end of the range, you can adjust your estimate accordingly.",
+        "20": "Take into account the number of players: The more players there are, the wider the range of possible numbers will be. This means that the average is more likely to be closer to the middle of the range.",
+        "21": "Calculate 2/3 of the estimated average: Multiply the estimated average by 2/3 to get the target number.",
+        "22": "Choose a number within the target range: Select a number that is within a reasonable range of the target number. Consider the distribution of numbers chosen by other players and aim for a number that is not too extreme or too close to the average.",
+        "23": "Adjust the range based on previous rounds: If the target number in previous rounds has consistently been closer to the minimum or maximum possible target number, adjust the range accordingly.",
+        "24": "Record your chosen numbers: Keep a list of the numbers you choose in each round.",
+        "25": "Record the corresponding target numbers: Note down the target number for each round, which is 2/3 of the average of all chosen numbers.",
+        "26": "Identify patterns: Analyze your recorded data to find any patterns or trends in your choices. For example, do you tend to choose numbers that are higher or lower than the target number?",
+        "27": "Identify areas for improvement: Based on the patterns you identify, determine areas where you can improve your strategy. For example, if you consistently choose numbers that are too high, you may want to adjust your strategy to choose lower numbers in future rounds.",
+        "28": "Calculate the difference between your chosen number and the target number: Subtract the target number from your chosen number. This gives you the absolute difference.",
+        "29": "Determine if the difference is consistently large: Compare the absolute difference to a threshold value. If the absolute difference is greater than the threshold, consider it to be large. You can adjust the threshold based on your observations and the distribution of numbers chosen by other players.",
+        "30": "Adjust your strategy if necessary: If the difference is consistently large, consider changing your strategy. You can try choosing numbers that are closer to the average of all chosen numbers. You can also try choosing numbers that are closer to the winning numbers from previous rounds.",
+        "31": "Identify any clusters or gaps: Look for groups of numbers that are close together or areas where there are few or no numbers chosen. Clusters may indicate that players are choosing numbers within a certain range, while gaps may suggest that certain numbers are being avoided.",
+        "32": "Estimate the probability of choosing a number: Based on the observed distribution, estimate the likelihood of a number being chosen. This can help you narrow down the range of possible target numbers.",
+        "33": "Consider the strategies of other players: If you have observed patterns in the numbers chosen by other players, you can use this information to make inferences about their strategies. For example, if a player consistently chooses numbers close to the average, you might expect the target number to be closer to the average as well.",
+        "34": "Analyze previous rounds: {'Observe the numbers chosen by other players': 'Observe the numbers selected by other players in previous rounds of the game.', 'Identify patterns or trends in the chosen numbers': 'Look for recurring patterns or trends in the numbers chosen by other players.', 'Consider the average number chosen and the winning number': 'Take note of the average number chosen by players and the winning number in previous rounds.'}",
+        "35": "Brief guidelines: {'Start with a conservative approach': 'Begin by choosing a number that is close to the average number.', 'Gradually adjust your strategy': 'Over time, experiment with different strategies and gradually refine your approach based on your experience.', \"Don't be afraid to take risks\": 'Occasionally, consider choosing a number that is further from the average, as it may yield positive results.', 'Pay attention to the other players': 'Observe the choices made by other players and try to anticipate their strategies.', 'Have fun': 'Remember to enjoy the game and not stress excessively about winning.'}"
+      },
+      "arms_cnt": [
+        1,
+        4,
+        8,
+        19,
+        28,
+        36
+      ]
+    }
+  ]
+}

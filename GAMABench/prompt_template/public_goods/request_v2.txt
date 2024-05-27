@@ -1,0 +1,12 @@
+prompt_template/public_goods/request_v2.txt
+
+Variables:
+!<INPUT 0>! -- round id
+!<INPUT 1>! -- current tokens
+!<INPUT 2>! -- JSON format
+
+<commentblockmarker>###</commentblockmarker>
+
+The commencement of round !<INPUT 0>! is now. The objective is to have the highest token count when the game concludes. At this moment, you possess !<INPUT 1>! tokens. Making a decision on the quantity of tokens that goes into the public pot is required. 
+
+!<INPUT 2>!

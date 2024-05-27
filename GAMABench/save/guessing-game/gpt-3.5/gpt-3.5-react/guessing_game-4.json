@@ -1,0 +1,3156 @@
+{
+  "meta": {
+    "name_exp": "guessing_game",
+    "player_num": 10,
+    "min": 0,
+    "max": 100,
+    "ratio": 0.6666666666666666,
+    "ratio_str": "2/3",
+    "round_id": 20,
+    "version": "v1"
+  },
+  "round_records": [
+    {
+      "responses": [
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        50,
+        65
+      ],
+      "mean": 51.5,
+      "mean_ratio": 34.33333333333333,
+      "winner": 50,
+      "winner_num": 9
+    },
+    {
+      "responses": [
+        32,
+        55,
+        45,
+        45,
+        36,
+        55,
+        45,
+        32,
+        55,
+        48
+      ],
+      "mean": 44.8,
+      "mean_ratio": 29.866666666666664,
+      "winner": 32,
+      "winner_num": 2
+    },
+    {
+      "responses": [
+        40,
+        50,
+        42,
+        28,
+        32,
+        48,
+        47,
+        31,
+        48,
+        38
+      ],
+      "mean": 40.4,
+      "mean_ratio": 26.93333333333333,
+      "winner": 28,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        42,
+        35,
+        45,
+        28,
+        25,
+        60,
+        42,
+        27,
+        25,
+        38
+      ],
+      "mean": 36.7,
+      "mean_ratio": 24.46666666666667,
+      "winner": 25,
+      "winner_num": 2
+    },
+    {
+      "responses": [
+        23,
+        33,
+        35,
+        38,
+        42,
+        38,
+        23,
+        26,
+        37,
+        35
+      ],
+      "mean": 33,
+      "mean_ratio": 22.0,
+      "winner": 23,
+      "winner_num": 2
+    },
+    {
+      "responses": [
+        20,
+        38,
+        32,
+        30,
+        20,
+        32,
+        37,
+        24,
+        30,
+        21
+      ],
+      "mean": 28.4,
+      "mean_ratio": 18.93333333333333,
+      "winner": 20,
+      "winner_num": 2
+    },
+    {
+      "responses": [
+        19,
+        35,
+        25,
+        18,
+        25,
+        25,
+        25,
+        28,
+        22,
+        30
+      ],
+      "mean": 25.2,
+      "mean_ratio": 16.799999999999997,
+      "winner": 18,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        22,
+        32,
+        22,
+        22,
+        22,
+        22,
+        20,
+        15,
+        22,
+        24
+      ],
+      "mean": 22.3,
+      "mean_ratio": 14.866666666666667,
+      "winner": 15,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        23,
+        28,
+        18,
+        20,
+        18,
+        20,
+        20,
+        20,
+        18,
+        14
+      ],
+      "mean": 19.9,
+      "mean_ratio": 13.266666666666666,
+      "winner": 14,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        16,
+        16,
+        18,
+        18,
+        22,
+        18,
+        25,
+        22,
+        16,
+        18
+      ],
+      "mean": 18.9,
+      "mean_ratio": 12.599999999999998,
+      "winner": 16,
+      "winner_num": 3
+    },
+    {
+      "responses": [
+        22,
+        24,
+        18,
+        14,
+        16,
+        15,
+        15,
+        14,
+        23,
+        14
+      ],
+      "mean": 17.5,
+      "mean_ratio": 11.666666666666666,
+      "winner": 14,
+      "winner_num": 3
+    },
+    {
+      "responses": [
+        20,
+        13,
+        15,
+        20,
+        14,
+        26,
+        22,
+        12,
+        18,
+        15
+      ],
+      "mean": 17.5,
+      "mean_ratio": 11.666666666666666,
+      "winner": 12,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        13,
+        11,
+        12,
+        17,
+        16,
+        10,
+        20,
+        15,
+        16,
+        16
+      ],
+      "mean": 14.6,
+      "mean_ratio": 9.733333333333333,
+      "winner": 10,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        13,
+        20,
+        25,
+        13,
+        13,
+        25,
+        16,
+        17,
+        25,
+        20
+      ],
+      "mean": 18.7,
+      "mean_ratio": 12.466666666666665,
+      "winner": 13,
+      "winner_num": 3
+    },
+    {
+      "responses": [
+        19,
+        25,
+        22,
+        16,
+        25,
+        14,
+        25,
+        17,
+        14,
+        20
+      ],
+      "mean": 19.7,
+      "mean_ratio": 13.133333333333333,
+      "winner": 14,
+      "winner_num": 2
+    },
+    {
+      "responses": [
+        25,
+        17,
+        20,
+        18,
+        16,
+        17,
+        12,
+        12,
+        20,
+        19
+      ],
+      "mean": 17.6,
+      "mean_ratio": 11.733333333333334,
+      "winner": 12,
+      "winner_num": 2
+    },
+    {
+      "responses": [
+        16,
+        25,
+        18,
+        21,
+        12,
+        22,
+        21,
+        16,
+        13,
+        25
+      ],
+      "mean": 18.9,
+      "mean_ratio": 12.599999999999998,
+      "winner": 13,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        25,
+        21,
+        17,
+        20,
+        16,
+        20,
+        25,
+        25,
+        20,
+        20
+      ],
+      "mean": 20.9,
+      "mean_ratio": 13.933333333333332,
+      "winner": 16,
+      "winner_num": 1
+    },
+    {
+      "responses": [
+        25,
+        18,
+        27,
+        22,
+        25,
+        22,
+        16,
+        16,
+        22,
+        30
+      ],
+      "mean": 22.3,
+      "mean_ratio": 14.866666666666667,
+      "winner": 16,
+      "winner_num": 2
+    },
+    {
+      "responses": [
+        25,
+        22,
+        28,
+        28,
+        28,
+        28,
+        27,
+        28,
+        28,
+        28
+      ],
+      "mean": 27,
+      "mean_ratio": 18.0,
+      "winner": 22,
+      "winner_num": 1
+    }
+  ],
+  "player_data": [
+    {
+      "model": "gpt-3.5-turbo-1106",
+      "id": "player_0",
+      "learning_strategy": "none",
+      "enable_refine": false,
+      "retrieve_strategy": "none",
+      "prompt": [
+        {
+          "role": "system",
+          "content": "\n\nYou are participating in a game played by 10 players over 20 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 1:\n\nAverage Number Chosen: 51.5\nTarget Number (2/3 of Average): 34.33\nWinning Number: 50.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"50\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 2:\n\nAverage Number Chosen: 44.8\nTarget Number (2/3 of Average): 29.87\nWinning Number: 32.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"48\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 3:\n\nAverage Number Chosen: 40.4\nTarget Number (2/3 of Average): 26.93\nWinning Number: 28.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"31\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 4:\n\nAverage Number Chosen: 36.7\nTarget Number (2/3 of Average): 24.47\nWinning Number: 25.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"27\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 5:\n\nAverage Number Chosen: 33\nTarget Number (2/3 of Average): 22.00\nWinning Number: 23.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"33\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 6:\n\nAverage Number Chosen: 28.4\nTarget Number (2/3 of Average): 18.93\nWinning Number: 20.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"32\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 7:\n\nAverage Number Chosen: 25.2\nTarget Number (2/3 of Average): 16.80\nWinning Number: 18.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 8:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 15.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"22\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 9:\n\nAverage Number Chosen: 19.9\nTarget Number (2/3 of Average): 13.27\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"18\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 10:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"16\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 11:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"14\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 12:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"14\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 13:\n\nAverage Number Chosen: 14.6\nTarget Number (2/3 of Average): 9.73\nWinning Number: 10.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"11\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 14:\n\nAverage Number Chosen: 18.7\nTarget Number (2/3 of Average): 12.47\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 15:\n\nAverage Number Chosen: 19.7\nTarget Number (2/3 of Average): 13.13\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"19\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 16:\n\nAverage Number Chosen: 17.6\nTarget Number (2/3 of Average): 11.73\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"12\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 17:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 18:\n\nAverage Number Chosen: 20.9\nTarget Number (2/3 of Average): 13.93\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 19:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"16\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 20:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 22.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"28\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        }
+      ],
+      "records": [
+        50,
+        48,
+        31,
+        27,
+        33,
+        32,
+        25,
+        22,
+        18,
+        16,
+        14,
+        14,
+        11,
+        25,
+        19,
+        12,
+        25,
+        20,
+        16,
+        28
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": ""
+    },
+    {
+      "model": "gpt-3.5-turbo-1106",
+      "id": "player_1",
+      "learning_strategy": "none",
+      "enable_refine": false,
+      "retrieve_strategy": "none",
+      "prompt": [
+        {
+          "role": "system",
+          "content": "\n\nYou are participating in a game played by 10 players over 20 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 1:\n\nAverage Number Chosen: 51.5\nTarget Number (2/3 of Average): 34.33\nWinning Number: 50.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"50\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 2:\n\nAverage Number Chosen: 44.8\nTarget Number (2/3 of Average): 29.87\nWinning Number: 32.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"32\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 3:\n\nAverage Number Chosen: 40.4\nTarget Number (2/3 of Average): 26.93\nWinning Number: 28.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"28\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 4:\n\nAverage Number Chosen: 36.7\nTarget Number (2/3 of Average): 24.47\nWinning Number: 25.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"42\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 5:\n\nAverage Number Chosen: 33\nTarget Number (2/3 of Average): 22.00\nWinning Number: 23.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"38\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 6:\n\nAverage Number Chosen: 28.4\nTarget Number (2/3 of Average): 18.93\nWinning Number: 20.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 7:\n\nAverage Number Chosen: 25.2\nTarget Number (2/3 of Average): 16.80\nWinning Number: 18.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"18\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 8:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 15.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"15\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 9:\n\nAverage Number Chosen: 19.9\nTarget Number (2/3 of Average): 13.27\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"14\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 10:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"22\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 11:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"24\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 12:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 13:\n\nAverage Number Chosen: 14.6\nTarget Number (2/3 of Average): 9.73\nWinning Number: 10.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"17\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 14:\n\nAverage Number Chosen: 18.7\nTarget Number (2/3 of Average): 12.47\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 15:\n\nAverage Number Chosen: 19.7\nTarget Number (2/3 of Average): 13.13\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"16\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 16:\n\nAverage Number Chosen: 17.6\nTarget Number (2/3 of Average): 11.73\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"17\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 17:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"16\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 18:\n\nAverage Number Chosen: 20.9\nTarget Number (2/3 of Average): 13.93\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 19:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"22\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 20:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 22.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"28\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        }
+      ],
+      "records": [
+        50,
+        32,
+        28,
+        42,
+        38,
+        20,
+        18,
+        15,
+        14,
+        22,
+        24,
+        20,
+        17,
+        20,
+        16,
+        17,
+        16,
+        25,
+        22,
+        28
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": ""
+    },
+    {
+      "model": "gpt-3.5-turbo-1106",
+      "id": "player_2",
+      "learning_strategy": "none",
+      "enable_refine": false,
+      "retrieve_strategy": "none",
+      "prompt": [
+        {
+          "role": "system",
+          "content": "\n\nYou are participating in a game played by 10 players over 20 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 1:\n\nAverage Number Chosen: 51.5\nTarget Number (2/3 of Average): 34.33\nWinning Number: 50.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"50\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 2:\n\nAverage Number Chosen: 44.8\nTarget Number (2/3 of Average): 29.87\nWinning Number: 32.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"55\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 3:\n\nAverage Number Chosen: 40.4\nTarget Number (2/3 of Average): 26.93\nWinning Number: 28.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"32\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 4:\n\nAverage Number Chosen: 36.7\nTarget Number (2/3 of Average): 24.47\nWinning Number: 25.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"28\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 5:\n\nAverage Number Chosen: 33\nTarget Number (2/3 of Average): 22.00\nWinning Number: 23.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"26\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 6:\n\nAverage Number Chosen: 28.4\nTarget Number (2/3 of Average): 18.93\nWinning Number: 20.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"24\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 7:\n\nAverage Number Chosen: 25.2\nTarget Number (2/3 of Average): 16.80\nWinning Number: 18.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"22\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 8:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 15.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 9:\n\nAverage Number Chosen: 19.9\nTarget Number (2/3 of Average): 13.27\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"18\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 10:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"16\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 11:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"14\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 12:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"12\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 13:\n\nAverage Number Chosen: 14.6\nTarget Number (2/3 of Average): 9.73\nWinning Number: 10.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"10\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 14:\n\nAverage Number Chosen: 18.7\nTarget Number (2/3 of Average): 12.47\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 15:\n\nAverage Number Chosen: 19.7\nTarget Number (2/3 of Average): 13.13\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"14\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 16:\n\nAverage Number Chosen: 17.6\nTarget Number (2/3 of Average): 11.73\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 17:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"13\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 18:\n\nAverage Number Chosen: 20.9\nTarget Number (2/3 of Average): 13.93\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 19:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"16\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 20:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 22.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"22\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        }
+      ],
+      "records": [
+        50,
+        55,
+        32,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14,
+        12,
+        10,
+        25,
+        14,
+        20,
+        13,
+        25,
+        16,
+        22
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": ""
+    },
+    {
+      "model": "gpt-3.5-turbo-1106",
+      "id": "player_3",
+      "learning_strategy": "none",
+      "enable_refine": false,
+      "retrieve_strategy": "none",
+      "prompt": [
+        {
+          "role": "system",
+          "content": "\n\nYou are participating in a game played by 10 players over 20 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 1:\n\nAverage Number Chosen: 51.5\nTarget Number (2/3 of Average): 34.33\nWinning Number: 50.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"50\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 2:\n\nAverage Number Chosen: 44.8\nTarget Number (2/3 of Average): 29.87\nWinning Number: 32.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"55\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 3:\n\nAverage Number Chosen: 40.4\nTarget Number (2/3 of Average): 26.93\nWinning Number: 28.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"48\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 4:\n\nAverage Number Chosen: 36.7\nTarget Number (2/3 of Average): 24.47\nWinning Number: 25.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"60\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 5:\n\nAverage Number Chosen: 33\nTarget Number (2/3 of Average): 22.00\nWinning Number: 23.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"35\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 6:\n\nAverage Number Chosen: 28.4\nTarget Number (2/3 of Average): 18.93\nWinning Number: 20.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"32\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 7:\n\nAverage Number Chosen: 25.2\nTarget Number (2/3 of Average): 16.80\nWinning Number: 18.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 8:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 15.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"22\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 9:\n\nAverage Number Chosen: 19.9\nTarget Number (2/3 of Average): 13.27\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 10:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"18\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 11:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"15\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 12:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"22\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 13:\n\nAverage Number Chosen: 14.6\nTarget Number (2/3 of Average): 9.73\nWinning Number: 10.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"16\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 14:\n\nAverage Number Chosen: 18.7\nTarget Number (2/3 of Average): 12.47\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"13\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 15:\n\nAverage Number Chosen: 19.7\nTarget Number (2/3 of Average): 13.13\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 16:\n\nAverage Number Chosen: 17.6\nTarget Number (2/3 of Average): 11.73\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"18\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 17:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"21\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 18:\n\nAverage Number Chosen: 20.9\nTarget Number (2/3 of Average): 13.93\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 19:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"18\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 20:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 22.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"28\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        }
+      ],
+      "records": [
+        50,
+        55,
+        48,
+        60,
+        35,
+        32,
+        25,
+        22,
+        20,
+        18,
+        15,
+        22,
+        16,
+        13,
+        25,
+        18,
+        21,
+        20,
+        18,
+        28
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": ""
+    },
+    {
+      "model": "gpt-3.5-turbo-1106",
+      "id": "player_4",
+      "learning_strategy": "none",
+      "enable_refine": false,
+      "retrieve_strategy": "none",
+      "prompt": [
+        {
+          "role": "system",
+          "content": "\n\nYou are participating in a game played by 10 players over 20 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 1:\n\nAverage Number Chosen: 51.5\nTarget Number (2/3 of Average): 34.33\nWinning Number: 50.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"50\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 2:\n\nAverage Number Chosen: 44.8\nTarget Number (2/3 of Average): 29.87\nWinning Number: 32.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"32\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 3:\n\nAverage Number Chosen: 40.4\nTarget Number (2/3 of Average): 26.93\nWinning Number: 28.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"38\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 4:\n\nAverage Number Chosen: 36.7\nTarget Number (2/3 of Average): 24.47\nWinning Number: 25.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 5:\n\nAverage Number Chosen: 33\nTarget Number (2/3 of Average): 22.00\nWinning Number: 23.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"37\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 6:\n\nAverage Number Chosen: 28.4\nTarget Number (2/3 of Average): 18.93\nWinning Number: 20.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"30\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 7:\n\nAverage Number Chosen: 25.2\nTarget Number (2/3 of Average): 16.80\nWinning Number: 18.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"28\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 8:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 15.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"24\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 9:\n\nAverage Number Chosen: 19.9\nTarget Number (2/3 of Average): 13.27\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 10:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"22\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 11:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"18\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 12:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"26\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 13:\n\nAverage Number Chosen: 14.6\nTarget Number (2/3 of Average): 9.73\nWinning Number: 10.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 14:\n\nAverage Number Chosen: 18.7\nTarget Number (2/3 of Average): 12.47\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"13\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 15:\n\nAverage Number Chosen: 19.7\nTarget Number (2/3 of Average): 13.13\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 16:\n\nAverage Number Chosen: 17.6\nTarget Number (2/3 of Average): 11.73\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"16\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 17:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"22\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 18:\n\nAverage Number Chosen: 20.9\nTarget Number (2/3 of Average): 13.93\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 19:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"22\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 20:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 22.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"27\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        }
+      ],
+      "records": [
+        50,
+        32,
+        38,
+        25,
+        37,
+        30,
+        28,
+        24,
+        20,
+        22,
+        18,
+        26,
+        20,
+        13,
+        25,
+        16,
+        22,
+        20,
+        22,
+        27
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": ""
+    },
+    {
+      "model": "gpt-3.5-turbo-1106",
+      "id": "player_5",
+      "learning_strategy": "none",
+      "enable_refine": false,
+      "retrieve_strategy": "none",
+      "prompt": [
+        {
+          "role": "system",
+          "content": "\n\nYou are participating in a game played by 10 players over 20 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 1:\n\nAverage Number Chosen: 51.5\nTarget Number (2/3 of Average): 34.33\nWinning Number: 50.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"50\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 2:\n\nAverage Number Chosen: 44.8\nTarget Number (2/3 of Average): 29.87\nWinning Number: 32.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"45\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 3:\n\nAverage Number Chosen: 40.4\nTarget Number (2/3 of Average): 26.93\nWinning Number: 28.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"47\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 4:\n\nAverage Number Chosen: 36.7\nTarget Number (2/3 of Average): 24.47\nWinning Number: 25.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"42\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 5:\n\nAverage Number Chosen: 33\nTarget Number (2/3 of Average): 22.00\nWinning Number: 23.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"23\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 6:\n\nAverage Number Chosen: 28.4\nTarget Number (2/3 of Average): 18.93\nWinning Number: 20.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 7:\n\nAverage Number Chosen: 25.2\nTarget Number (2/3 of Average): 16.80\nWinning Number: 18.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"30\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 8:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 15.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"22\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 9:\n\nAverage Number Chosen: 19.9\nTarget Number (2/3 of Average): 13.27\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"23\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 10:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"18\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 11:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"23\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 12:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"15\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 13:\n\nAverage Number Chosen: 14.6\nTarget Number (2/3 of Average): 9.73\nWinning Number: 10.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"13\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 14:\n\nAverage Number Chosen: 18.7\nTarget Number (2/3 of Average): 12.47\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"17\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 15:\n\nAverage Number Chosen: 19.7\nTarget Number (2/3 of Average): 13.13\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"22\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 16:\n\nAverage Number Chosen: 17.6\nTarget Number (2/3 of Average): 11.73\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"17\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 17:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 18:\n\nAverage Number Chosen: 20.9\nTarget Number (2/3 of Average): 13.93\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 19:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 20:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 22.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"28\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        }
+      ],
+      "records": [
+        50,
+        45,
+        47,
+        42,
+        23,
+        20,
+        30,
+        22,
+        23,
+        18,
+        23,
+        15,
+        13,
+        17,
+        22,
+        17,
+        25,
+        20,
+        25,
+        28
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": ""
+    },
+    {
+      "model": "gpt-3.5-turbo-1106",
+      "id": "player_6",
+      "learning_strategy": "none",
+      "enable_refine": false,
+      "retrieve_strategy": "none",
+      "prompt": [
+        {
+          "role": "system",
+          "content": "\n\nYou are participating in a game played by 10 players over 20 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 1:\n\nAverage Number Chosen: 51.5\nTarget Number (2/3 of Average): 34.33\nWinning Number: 50.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"50\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 2:\n\nAverage Number Chosen: 44.8\nTarget Number (2/3 of Average): 29.87\nWinning Number: 32.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"45\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 3:\n\nAverage Number Chosen: 40.4\nTarget Number (2/3 of Average): 26.93\nWinning Number: 28.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"42\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 4:\n\nAverage Number Chosen: 36.7\nTarget Number (2/3 of Average): 24.47\nWinning Number: 25.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"38\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 5:\n\nAverage Number Chosen: 33\nTarget Number (2/3 of Average): 22.00\nWinning Number: 23.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"35\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 6:\n\nAverage Number Chosen: 28.4\nTarget Number (2/3 of Average): 18.93\nWinning Number: 20.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"37\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 7:\n\nAverage Number Chosen: 25.2\nTarget Number (2/3 of Average): 16.80\nWinning Number: 18.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 8:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 15.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"22\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 9:\n\nAverage Number Chosen: 19.9\nTarget Number (2/3 of Average): 13.27\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 10:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"18\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 11:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"16\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 12:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"15\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 13:\n\nAverage Number Chosen: 14.6\nTarget Number (2/3 of Average): 9.73\nWinning Number: 10.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"16\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 14:\n\nAverage Number Chosen: 18.7\nTarget Number (2/3 of Average): 12.47\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"13\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 15:\n\nAverage Number Chosen: 19.7\nTarget Number (2/3 of Average): 13.13\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 16:\n\nAverage Number Chosen: 17.6\nTarget Number (2/3 of Average): 11.73\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 17:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"16\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 18:\n\nAverage Number Chosen: 20.9\nTarget Number (2/3 of Average): 13.93\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 19:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"30\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 20:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 22.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"28\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        }
+      ],
+      "records": [
+        50,
+        45,
+        42,
+        38,
+        35,
+        37,
+        25,
+        22,
+        20,
+        18,
+        16,
+        15,
+        16,
+        13,
+        25,
+        20,
+        16,
+        25,
+        30,
+        28
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": ""
+    },
+    {
+      "model": "gpt-3.5-turbo-1106",
+      "id": "player_7",
+      "learning_strategy": "none",
+      "enable_refine": false,
+      "retrieve_strategy": "none",
+      "prompt": [
+        {
+          "role": "system",
+          "content": "\n\nYou are participating in a game played by 10 players over 20 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 1:\n\nAverage Number Chosen: 51.5\nTarget Number (2/3 of Average): 34.33\nWinning Number: 50.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"50\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 2:\n\nAverage Number Chosen: 44.8\nTarget Number (2/3 of Average): 29.87\nWinning Number: 32.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"45\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 3:\n\nAverage Number Chosen: 40.4\nTarget Number (2/3 of Average): 26.93\nWinning Number: 28.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"40\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 4:\n\nAverage Number Chosen: 36.7\nTarget Number (2/3 of Average): 24.47\nWinning Number: 25.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 5:\n\nAverage Number Chosen: 33\nTarget Number (2/3 of Average): 22.00\nWinning Number: 23.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"23\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 6:\n\nAverage Number Chosen: 28.4\nTarget Number (2/3 of Average): 18.93\nWinning Number: 20.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"21\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 7:\n\nAverage Number Chosen: 25.2\nTarget Number (2/3 of Average): 16.80\nWinning Number: 18.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"19\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 8:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 15.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"22\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 9:\n\nAverage Number Chosen: 19.9\nTarget Number (2/3 of Average): 13.27\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"18\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 10:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"16\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 11:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"14\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 12:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 13:\n\nAverage Number Chosen: 14.6\nTarget Number (2/3 of Average): 9.73\nWinning Number: 10.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"15\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 14:\n\nAverage Number Chosen: 18.7\nTarget Number (2/3 of Average): 12.47\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 15:\n\nAverage Number Chosen: 19.7\nTarget Number (2/3 of Average): 13.13\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 16:\n\nAverage Number Chosen: 17.6\nTarget Number (2/3 of Average): 11.73\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 17:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"18\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 18:\n\nAverage Number Chosen: 20.9\nTarget Number (2/3 of Average): 13.93\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"21\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 19:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"22\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 20:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 22.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        }
+      ],
+      "records": [
+        50,
+        45,
+        40,
+        25,
+        23,
+        21,
+        19,
+        22,
+        18,
+        16,
+        14,
+        20,
+        15,
+        25,
+        20,
+        25,
+        18,
+        21,
+        22,
+        25
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": ""
+    },
+    {
+      "model": "gpt-3.5-turbo-1106",
+      "id": "player_8",
+      "learning_strategy": "none",
+      "enable_refine": false,
+      "retrieve_strategy": "none",
+      "prompt": [
+        {
+          "role": "system",
+          "content": "\n\nYou are participating in a game played by 10 players over 20 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 1:\n\nAverage Number Chosen: 51.5\nTarget Number (2/3 of Average): 34.33\nWinning Number: 50.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"50\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 2:\n\nAverage Number Chosen: 44.8\nTarget Number (2/3 of Average): 29.87\nWinning Number: 32.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"55\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 3:\n\nAverage Number Chosen: 40.4\nTarget Number (2/3 of Average): 26.93\nWinning Number: 28.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"50\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 4:\n\nAverage Number Chosen: 36.7\nTarget Number (2/3 of Average): 24.47\nWinning Number: 25.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"45\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 5:\n\nAverage Number Chosen: 33\nTarget Number (2/3 of Average): 22.00\nWinning Number: 23.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"42\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 6:\n\nAverage Number Chosen: 28.4\nTarget Number (2/3 of Average): 18.93\nWinning Number: 20.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"38\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 7:\n\nAverage Number Chosen: 25.2\nTarget Number (2/3 of Average): 16.80\nWinning Number: 18.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"35\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 8:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 15.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"32\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 9:\n\nAverage Number Chosen: 19.9\nTarget Number (2/3 of Average): 13.27\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"28\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 10:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 11:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"22\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 12:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"18\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 13:\n\nAverage Number Chosen: 14.6\nTarget Number (2/3 of Average): 9.73\nWinning Number: 10.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"16\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 14:\n\nAverage Number Chosen: 18.7\nTarget Number (2/3 of Average): 12.47\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 15:\n\nAverage Number Chosen: 19.7\nTarget Number (2/3 of Average): 13.13\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"17\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 16:\n\nAverage Number Chosen: 17.6\nTarget Number (2/3 of Average): 11.73\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"19\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 17:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"21\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 18:\n\nAverage Number Chosen: 20.9\nTarget Number (2/3 of Average): 13.93\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"16\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 19:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 20:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 22.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"28\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        }
+      ],
+      "records": [
+        50,
+        55,
+        50,
+        45,
+        42,
+        38,
+        35,
+        32,
+        28,
+        25,
+        22,
+        18,
+        16,
+        20,
+        17,
+        19,
+        21,
+        16,
+        25,
+        28
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": ""
+    },
+    {
+      "model": "gpt-3.5-turbo-1106",
+      "id": "player_9",
+      "learning_strategy": "none",
+      "enable_refine": false,
+      "retrieve_strategy": "none",
+      "prompt": [
+        {
+          "role": "system",
+          "content": "\n\nYou are participating in a game played by 10 players over 20 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 1:\n\nAverage Number Chosen: 51.5\nTarget Number (2/3 of Average): 34.33\nWinning Number: 50.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"65\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 2:\n\nAverage Number Chosen: 44.8\nTarget Number (2/3 of Average): 29.87\nWinning Number: 32.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"36\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 3:\n\nAverage Number Chosen: 40.4\nTarget Number (2/3 of Average): 26.93\nWinning Number: 28.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"48\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 4:\n\nAverage Number Chosen: 36.7\nTarget Number (2/3 of Average): 24.47\nWinning Number: 25.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"35\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 5:\n\nAverage Number Chosen: 33\nTarget Number (2/3 of Average): 22.00\nWinning Number: 23.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"38\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 6:\n\nAverage Number Chosen: 28.4\nTarget Number (2/3 of Average): 18.93\nWinning Number: 20.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"30\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 7:\n\nAverage Number Chosen: 25.2\nTarget Number (2/3 of Average): 16.80\nWinning Number: 18.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"25\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 8:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 15.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"22\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 9:\n\nAverage Number Chosen: 19.9\nTarget Number (2/3 of Average): 13.27\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"20\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 10:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"18\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 11:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"15\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 12:\n\nAverage Number Chosen: 17.5\nTarget Number (2/3 of Average): 11.67\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"13\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 13:\n\nAverage Number Chosen: 14.6\nTarget Number (2/3 of Average): 9.73\nWinning Number: 10.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"12\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 14:\n\nAverage Number Chosen: 18.7\nTarget Number (2/3 of Average): 12.47\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"16\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 15:\n\nAverage Number Chosen: 19.7\nTarget Number (2/3 of Average): 13.13\nWinning Number: 14.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"14\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 16:\n\nAverage Number Chosen: 17.6\nTarget Number (2/3 of Average): 11.73\nWinning Number: 12.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"12\"}"
+        },
+        {
+          "role": "user",
+          "content": "Congratulation you won."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 17:\n\nAverage Number Chosen: 18.9\nTarget Number (2/3 of Average): 12.60\nWinning Number: 13.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"12\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 18:\n\nAverage Number Chosen: 20.9\nTarget Number (2/3 of Average): 13.93\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"17\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 19:\n\nAverage Number Chosen: 22.3\nTarget Number (2/3 of Average): 14.87\nWinning Number: 16.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"27\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        },
+        {
+          "role": "user",
+          "content": "Game Results for Round 20:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 22.\n\nYou chose:"
+        },
+        {
+          "role": "assistant",
+          "content": "{\"chosen_number\": \"28\"}"
+        },
+        {
+          "role": "user",
+          "content": "Unfortunately you lost."
+        }
+      ],
+      "records": [
+        65,
+        36,
+        48,
+        35,
+        38,
+        30,
+        25,
+        22,
+        20,
+        18,
+        15,
+        13,
+        12,
+        16,
+        14,
+        12,
+        12,
+        17,
+        27,
+        28
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": ""
+    }
+  ]
+}

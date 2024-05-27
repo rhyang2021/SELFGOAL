@@ -1,0 +1,6 @@
+COT Prompt 2
+
+<commentblockmarker>###</commentblockmarker>
+
+Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.
+Write an abstract plan to successfully complete the goal.

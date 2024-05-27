@@ -1,0 +1,22 @@
+prompt_template/guessing_game/description_v5.txt
+
+Variables:
+!<INPUT 0>! -- number of players
+!<INPUT 1>! -- number of rounds
+!<INPUT 2>! -- minimum
+!<INPUT 3>! -- maximum
+!<INPUT 4>! -- ratio
+!<INPUT 5>! -- role play message
+
+<commentblockmarker>###</commentblockmarker>
+
+!<INPUT 5>!
+
+You will be engaging in a game that is played over !<INPUT 1>! rounds and includes a total of !<INPUT 0>! players. 
+
+The Instructions of the Game:
+
+1. Every player is supposed to pick an integer that is within the range of !<INPUT 2>! and !<INPUT 3>!, both numbers inclusive. 
+2. The median of all the numbers chosen by the players is then determined after all choices have been made. 
+3. The number that players are aiming for is !<INPUT 4>! times the calculated average. 
+4. The player or players who opt for the number closest to this target are declared the winners.

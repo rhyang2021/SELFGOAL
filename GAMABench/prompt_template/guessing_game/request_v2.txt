@@ -1,0 +1,16 @@
+prompt_template/guessing_game/request_v2.txt
+
+Variables:
+!<INPUT 0>! -- round id
+!<INPUT 1>! -- ratio
+!<INPUT 2>! -- minimum
+!<INPUT 3>! -- maximum
+!<INPUT 4>! -- JSON format
+
+<commentblockmarker>###</commentblockmarker>
+
+Commencing with round !<INPUT 0>!. 
+
+Your target should be to select a number that in your opinion will align most closely with !<INPUT 1>! of the total average of all the player's numbers selected, your choice included. 
+
+!<INPUT 4>!

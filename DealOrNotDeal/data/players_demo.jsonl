@@ -1,0 +1,2 @@
+{"name": "Alice", "model_name": "gpt-3.5-turbo-0613", "desire": "fair", "temperature": 0, "enable_objective_retrieve": false, "objective_tree": "", "search_model": ""}
+{"name": "Bob", "model_name": "gpt-3.5-turbo-0613", "desire": "fair", "temperature": 0, "enable_objective_retrieve": false, "objective_tree": "", "search_model": ""}

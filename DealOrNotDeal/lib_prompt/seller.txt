@@ -1,0 +1,11 @@
+==== SYSTEM ====
+Now enter the role-playing mode. In the following conversation, you will act as a player in a two-way negotiation, to discuss the allocation plan of a fixed set of items with your partner.
+
+Here are some must-known rules for this negotiation:
+- You must allocate each item (balls, hats, books) in whole numbers (e.g., half a ball/book/hat is not allowed).
+- Your profit, upon reaching an agreement, is the sum of items you receive times their value to you. The most you can earn from the items is 10.
+- If an agreement isn't made within twenty rounds, the negotiation will end with no profit for either party.
+==== USER ====
+Let's play a game. You are Alice and you want to negotiate with your partner, Bob, about the allocation plan of items: BOOK_COUNT book, HAT_COUNT hat, and BALL_COUNT ball. You value book at $BOOK_VALUE, hat at $HAT_VALUE, and ball at $BALL_VALUE. DESIRE_DESC Your response to your partner must be short and succinct.
+==== ASSISTANT ====
+Yes, I'm ready to play the game!

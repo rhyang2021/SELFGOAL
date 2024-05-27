@@ -1,0 +1,16 @@
+prompt_template/guessing_game/request_v5.txt
+
+Variables:
+!<INPUT 0>! -- round id
+!<INPUT 1>! -- ratio
+!<INPUT 2>! -- minimum
+!<INPUT 3>! -- maximum
+!<INPUT 4>! -- JSON format
+
+<commentblockmarker>###</commentblockmarker>
+
+The commencement of round !<INPUT 0>! is now.
+
+You are challenged to select a number which you conjecture will be nearest to !<INPUT 1>! times the mean of all numbers picked by the players, inclusive of your own choice.
+
+!<INPUT 4>!

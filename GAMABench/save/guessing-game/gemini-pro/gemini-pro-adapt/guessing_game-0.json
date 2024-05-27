@@ -1,0 +1,1881 @@
+{
+  "meta": {
+    "name_exp": "guessing_game",
+    "player_num": 5,
+    "min": 0,
+    "max": 100,
+    "ratio": 0.6666666666666666,
+    "ratio_str": "2/3",
+    "round_id": 20,
+    "version": "v1"
+  },
+  "round_records": [
+    {
+      "responses": [
+        33,
+        33,
+        33,
+        33,
+        33
+      ],
+      "mean": 33,
+      "mean_ratio": 22.0,
+      "winner": 33,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        21,
+        21,
+        21,
+        21,
+        21
+      ],
+      "mean": 21,
+      "mean_ratio": 14.0,
+      "winner": 21,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        21,
+        21,
+        21,
+        21,
+        21
+      ],
+      "mean": 21,
+      "mean_ratio": 14.0,
+      "winner": 21,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        24,
+        24,
+        24,
+        24,
+        24
+      ],
+      "mean": 24,
+      "mean_ratio": 16.0,
+      "winner": 24,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "mean": 27,
+      "mean_ratio": 18.0,
+      "winner": 27,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "mean": 27,
+      "mean_ratio": 18.0,
+      "winner": 27,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "mean": 27,
+      "mean_ratio": 18.0,
+      "winner": 27,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "mean": 27,
+      "mean_ratio": 18.0,
+      "winner": 27,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "mean": 27,
+      "mean_ratio": 18.0,
+      "winner": 27,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "mean": 27,
+      "mean_ratio": 18.0,
+      "winner": 27,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "mean": 27,
+      "mean_ratio": 18.0,
+      "winner": 27,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "mean": 27,
+      "mean_ratio": 18.0,
+      "winner": 27,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "mean": 27,
+      "mean_ratio": 18.0,
+      "winner": 27,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "mean": 27,
+      "mean_ratio": 18.0,
+      "winner": 27,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "mean": 27,
+      "mean_ratio": 18.0,
+      "winner": 27,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "mean": 27,
+      "mean_ratio": 18.0,
+      "winner": 27,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "mean": 27,
+      "mean_ratio": 18.0,
+      "winner": 27,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "mean": 27,
+      "mean_ratio": 18.0,
+      "winner": 27,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "mean": 27,
+      "mean_ratio": 18.0,
+      "winner": 27,
+      "winner_num": 5
+    },
+    {
+      "responses": [
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "mean": 27,
+      "mean_ratio": 18.0,
+      "winner": 27,
+      "winner_num": 5
+    }
+  ],
+  "player_data": [
+    {
+      "model": "gemini-pro",
+      "id": "player_0",
+      "learning_strategy": "none",
+      "retrieve_strategy": "none",
+      "prompt": [
+        {
+          "role": "user",
+          "parts": [
+            "\n\nYou are participating in a game played by 5 players over 20 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.",
+            "Now round 1 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 1:\n\nAverage Number Chosen: 33\nTarget Number (2/3 of Average): 22.00\nWinning Number: 33.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"33\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 2 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 2:\n\nAverage Number Chosen: 21\nTarget Number (2/3 of Average): 14.00\nWinning Number: 21.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"21\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 3 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 3:\n\nAverage Number Chosen: 21\nTarget Number (2/3 of Average): 14.00\nWinning Number: 21.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"21\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 4 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 4:\n\nAverage Number Chosen: 24\nTarget Number (2/3 of Average): 16.00\nWinning Number: 24.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"24\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 5 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 5:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 6 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Now round 6 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 6:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 7 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 7:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 8 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 8:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 9 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 9:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 10 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 10:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 11 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 11:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 12 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 12:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 13 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 13:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 14 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 14:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 15 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 15:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 16 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 16:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 17 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 17:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 18 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 18:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 19 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 19:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 20 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 20:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won."
+          ]
+        }
+      ],
+      "records": [
+        33,
+        21,
+        21,
+        24,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": {},
+      "arms_cnt": []
+    },
+    {
+      "model": "gemini-pro",
+      "id": "player_1",
+      "learning_strategy": "none",
+      "retrieve_strategy": "none",
+      "prompt": [
+        {
+          "role": "user",
+          "parts": [
+            "\n\nYou are participating in a game played by 5 players over 20 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.",
+            "Now round 1 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 1:\n\nAverage Number Chosen: 33\nTarget Number (2/3 of Average): 22.00\nWinning Number: 33.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"33\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 2 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 2:\n\nAverage Number Chosen: 21\nTarget Number (2/3 of Average): 14.00\nWinning Number: 21.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"21\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 3 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 3:\n\nAverage Number Chosen: 21\nTarget Number (2/3 of Average): 14.00\nWinning Number: 21.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"21\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 4 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 4:\n\nAverage Number Chosen: 24\nTarget Number (2/3 of Average): 16.00\nWinning Number: 24.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"24\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 5 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 5:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 6 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Now round 6 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 6:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 7 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 7:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 8 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 8:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 9 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 9:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 10 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 10:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 11 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 11:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 12 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 12:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 13 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 13:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 14 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 14:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 15 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 15:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 16 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 16:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 17 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 17:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 18 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 18:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 19 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 19:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 20 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 20:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won."
+          ]
+        }
+      ],
+      "records": [
+        33,
+        21,
+        21,
+        24,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": {},
+      "arms_cnt": []
+    },
+    {
+      "model": "gemini-pro",
+      "id": "player_2",
+      "learning_strategy": "none",
+      "retrieve_strategy": "none",
+      "prompt": [
+        {
+          "role": "user",
+          "parts": [
+            "\n\nYou are participating in a game played by 5 players over 20 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.",
+            "Now round 1 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 1:\n\nAverage Number Chosen: 33\nTarget Number (2/3 of Average): 22.00\nWinning Number: 33.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"33\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 2 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 2:\n\nAverage Number Chosen: 21\nTarget Number (2/3 of Average): 14.00\nWinning Number: 21.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"21\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 3 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 3:\n\nAverage Number Chosen: 21\nTarget Number (2/3 of Average): 14.00\nWinning Number: 21.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"21\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 4 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 4:\n\nAverage Number Chosen: 24\nTarget Number (2/3 of Average): 16.00\nWinning Number: 24.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"24\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 5 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 5:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 6 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Now round 6 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 6:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 7 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 7:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 8 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 8:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 9 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 9:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 10 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 10:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 11 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 11:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 12 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 12:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 13 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 13:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 14 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 14:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 15 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 15:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 16 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 16:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 17 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 17:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 18 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 18:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 19 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 19:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 20 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 20:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won."
+          ]
+        }
+      ],
+      "records": [
+        33,
+        21,
+        21,
+        24,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": {},
+      "arms_cnt": []
+    },
+    {
+      "model": "gemini-pro",
+      "id": "player_3",
+      "learning_strategy": "none",
+      "retrieve_strategy": "none",
+      "prompt": [
+        {
+          "role": "user",
+          "parts": [
+            "\n\nYou are participating in a game played by 5 players over 20 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.",
+            "Now round 1 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 1:\n\nAverage Number Chosen: 33\nTarget Number (2/3 of Average): 22.00\nWinning Number: 33.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"33\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 2 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 2:\n\nAverage Number Chosen: 21\nTarget Number (2/3 of Average): 14.00\nWinning Number: 21.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"21\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 3 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 3:\n\nAverage Number Chosen: 21\nTarget Number (2/3 of Average): 14.00\nWinning Number: 21.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"21\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 4 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 4:\n\nAverage Number Chosen: 24\nTarget Number (2/3 of Average): 16.00\nWinning Number: 24.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"24\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 5 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 5:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 6 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Now round 6 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 6:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 7 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 7:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 8 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 8:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 9 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 9:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 10 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 10:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 11 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 11:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 12 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 12:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 13 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 13:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 14 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 14:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 15 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 15:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 16 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 16:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 17 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 17:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 18 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 18:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 19 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 19:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 20 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 20:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won."
+          ]
+        }
+      ],
+      "records": [
+        33,
+        21,
+        21,
+        24,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": {},
+      "arms_cnt": []
+    },
+    {
+      "model": "gemini-pro",
+      "id": "player_4",
+      "learning_strategy": "none",
+      "retrieve_strategy": "none",
+      "prompt": [
+        {
+          "role": "user",
+          "parts": [
+            "\n\nYou are participating in a game played by 5 players over 20 rounds.\n\nGame Rules:\n\n1. Each player selects an integer number between 0 and 100, inclusive.\n2. After all selections are made, the average of all chosen numbers is calculated.\n3. The target number is 2/3 of this average.\n4. The winner is the player(s) who selected a number closest to the target number.\n\nRemember, Your goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.",
+            "Now round 1 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 1:\n\nAverage Number Chosen: 33\nTarget Number (2/3 of Average): 22.00\nWinning Number: 33.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"33\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 2 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 2:\n\nAverage Number Chosen: 21\nTarget Number (2/3 of Average): 14.00\nWinning Number: 21.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"21\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 3 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 3:\n\nAverage Number Chosen: 21\nTarget Number (2/3 of Average): 14.00\nWinning Number: 21.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"21\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 4 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 4:\n\nAverage Number Chosen: 24\nTarget Number (2/3 of Average): 16.00\nWinning Number: 24.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"24\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 5 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 5:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 6 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Now round 6 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 6:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 7 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 7:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 8 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 8:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 9 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 9:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 10 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 10:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 11 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 11:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 12 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 12:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 13 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 13:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 14 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 14:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 15 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 15:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 16 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 16:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 17 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 17:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 18 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 18:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 19 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 19:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won.",
+            "Now round 20 starts.\n\nYour goal is to choose a number that you believe will be closest to 2/3 of the average of all numbers chosen by players, including your selection.\n\n Learn from and incorporate information from previous runs, e.g. do not repeat previously successful or unsuccesful commands.\nWrite an abstract plan to successfully complete the goal.. Give your thinking process first, followed by your chosen number(integer_between_0_and_100). \n\n Your thinking process and chosen number must be in the following JSON format: {\"explanation\": \"thinking_process\", \"chosen_number\": \"integer_between_0_and_100\"}",
+            "Game Results for Round 20:\n\nAverage Number Chosen: 27\nTarget Number (2/3 of Average): 18.00\nWinning Number: 27.\n\nYou chose:"
+          ]
+        },
+        {
+          "role": "model",
+          "parts": [
+            "{\"chosen_number\": \"27\"}"
+          ]
+        },
+        {
+          "role": "user",
+          "parts": [
+            "Congratulation you won."
+          ]
+        }
+      ],
+      "records": [
+        33,
+        21,
+        21,
+        24,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        27
+      ],
+      "utility": [],
+      "learnings": "",
+      "arms": {},
+      "arms_cnt": []
+    }
+  ]
+}

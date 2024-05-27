@@ -1,0 +1,83 @@
+==== SYSTEM ====
+Now enter the role-playing mode. In the following conversation, you will play as a moderator in a two-way negotiation over a fixed set of items.
+==== USER ====
+Let's play a game. You are the moderator of a two-way negotiation. Your role is to decide if Alice and Bob have reached an agreement over the items(balls, books and hats) distribution during the two-way negotiation following the example:
+
+Bob: Sure, let's begin. What's your initial offer for the items?
+Alice: I propose that we split the items evenly: you get 2 books and 1 hat, and I get 1 book and 1 ball.
+question: have Alice and Bob achieved an agreement? Yes or No
+answer: Because the Bob did not agree yet. The answer is No.
+
+Alice: Hi, Let's start the negotiation over the items: 3 books, 1 hats, and 1 balls.
+Bob: Sure, let's negotiate. What items are you most interested in?
+question: have Alice and Bob achieved an agreement? Yes or No
+answer: Because Alice has not give any response to Bob yet. The answer is No. 
+
+Alice: I am most interested in the books.
+Bob: Great, I'm willing to let you have 2 books. In return, I would like the hat and the ball. Does that work for you?
+question: have Alice and Bob achieved an agreement? Yes or No
+answer: Because Alice did not confirm. The answer is No. 
+
+Bob: Sure, let's begin negotiating the allocation of the items.
+Alice: Great! I propose that we split the items evenly: 1 book, 0 hats, and 0 balls each. This way, we both get a fair share. What do you think?
+question: have Alice and Bob achieved an agreement? Yes or No
+answer: Because Bob has not agreed yet. The answer is No
+
+Bob: Sure, let's begin. How about we each take turns choosing one item at a time?
+Alice: Sounds fair. Since there are 3 books, 1 hat, and 1 ball, we can each choose 3 times. You can go first and choose an item.
+question: have Alice and Bob achieved an agreement? Yes or No
+answer: Because Bob have not agreed yet. The answer is No
+
+Bob: Hi Alice, let's discuss how we can allocate the items to maximize our profit.
+Alice: Sure, let's find a fair allocation that benefits both of us.
+question: have Alice and Bob achieved an agreement? Yes or No
+answer: Because no allocation plan have been proposed yet. The answer is No
+
+Bob: Sure, let's begin. What items are you interested in and what can you offer in return?
+Alice: I'm interested in the books. I can offer you 1 hat and 1 ball in return.
+question: have Alice and Bob achieved an agreement? Yes or No
+answer: Because Bob have not agreed yet. The answer is No
+
+Alice: Sounds fair. I'll start with my first offer. I propose that I receive 2 books, 1 hat, and you receive 1 book and 1 ball.
+Bob: Thank you for your offer. I value the books and the hat highly. I propose that I receive 2 books and the hat, and you receive 1 book and the ball.
+question: have Alice and Bob achieved an agreement? Yes or No
+answer: Because Alice have not agreed yet. The answer is No
+
+Bob: I see your point. But for me, the value of the book outweighs the value of the ball and the hats. How about you keep the ball and all three hats, and I keep the book? This way, both of us can still have items we value highly.
+Alice: I appreciate your perspective, but in order to maximize my own profit, I would like to suggest a different allocation. How about I keep the book and the ball, and you keep all three hats? This way, we both get items we value highly.
+question: have Alice and Bob achieved an agreement? Yes or No
+answer: Because Bob have not agree to Alice's proposal yet, the answer is No.
+
+Alice: Hi, Let's start the negotiation over the items: 3 books, 1 hats, and 1 balls.
+Bob: Sounds good. Let's get started. What items are you interested in?
+Alice: I'm interested in the books. What items are you interested in?
+Bob: I'm interested in the hats and balls. How about we make a deal where I get the hats and balls, and you get all the books?
+Alice: I understand your proposal. However, I value the books more than the hats and balls. Would you consider a different arrangement?
+Bob: I see your point. How about we split the items equally? You get one book, one hat, and one ball, and I get two books. This way, we both get a fair share.
+question: have Alice and Bob achieved an agreement? Yes or No
+answer: Because Alice have not agreed yet. The answer is No
+
+Bob: I understand your reasoning, Alice. However, I still value the hats and balls more. How about I keep 2 hats, 1 book, and you can have 1 hat, 1 book, and 1 ball?
+Alice: I understand your preference, Bob. How about we compromise and each take 1 book, 1 hat, and 1 ball? This way, we both get a balanced distribution of items.
+Bob: That sounds like a fair compromise, Alice. Let's go with your proposal. We each take 1 book, 1 hat, and 1 ball. Thank you for negotiating with me.
+Alice: Thank you too, Bob. I believe this is a fair deal. It was a pleasure negotiating with you.
+question: have Alice and Bob achieved an agreement? Yes or No
+answer: Because Alice and Bob have agreed. The answer is Yes
+
+Bob: Thank you for considering my preference. I'm willing to accept your proposal of 2 books, 1 hat, and 1 ball for me, and 1 book, 1 hat, and 1 ball for you. Let's proceed with that.
+Alice: Great! I'm glad we could reach an agreement. Let's proceed with the distribution of 2 books, 1 hat, and 1 ball for me, and 1 book, 1 hat, and 1 ball for you. Happy negotiating!
+Bob: Thank you for reaching an agreement. I'm happy with the distribution of 2 books, 1 hat, and 1 ball for me, and 1 book, 1 hat, and 1 ball for you. Good luck with your items!
+Alice: Thank you for your cooperation. I'm also pleased with the distribution of 2 books, 1 hat, and 1 ball for me, and 1 book, 1 hat, and 1 ball for you. Good luck with your items as well!
+Bob: Thank you! It was a pleasure negotiating with you. Good luck with your items and enjoy!
+question: have Alice and Bob achieved an agreement? Yes or No
+answer: Because both parts have agreed. The answer is Yes
+
+Alice: You're welcome! Take care and have a fantastic day as well!
+Bob: Thank you! I appreciate it. You have a fantastic day too!
+question: have Alice and Bob achieved a deal? Yes or No
+answer: Because there was no negotiation or agreement mentioned in relation to the items in this exchange. The answer is No.
+
+Bob: I'll take the last item, which is the book. Your turn.
+Alice: Alright, we have allocated all the items. Let's calculate our profits. I have 7 for the book, 1 for the hat, and 0 for the ball, which gives me a total profit of 8. How about you?
+question: have Alice and Bob achieved a deal? Yes or No
+answer: Because there was no negotiation or agreement mentioned in relation to the items in this exchange. The answer is No.

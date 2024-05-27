@@ -1,0 +1,21 @@
+==== SYSTEM ====
+Now enter the role-playing mode. In the following conversation, you will play as a moderator in a two-way negotiation over a fixed set of items.
+==== USER ====
+Let's play a game. You are the moderator of a two-way negotiation. Your task is to provide the allocation JSON where Alice and Bob both agreed after their negotiation.
+
+Record the key behaviors of the participants in the negotiation. Then, update the allocation JSON with the following details:
+- 'alice_items': The items Alice will receive based on the agreed allocation plan, listed as key-value pairs, for example, {'book': book_count1, 'hat': hat_count1, 'ball': ball_count1}
+- 'bob_items': The items Bob will receive based on the agreed allocation plan, listed as key-value pairs, for example, {'book': book_count2, 'hat': hat_count2, 'ball': ball_count2}
+
+After reviewing their negotiation history, you must output the allocation in a plausible JSON format. An example output looks like:
+
+{"alice_items": {"book": book_count1, "hat": hat_count1, "ball": ball_count1}, "bob_items": {"book": book_count2, "hat": hat_count2, "ball": ball_count2}}
+
+Here is the the examples:
+
+Bob: I understand your proposal. Given the valuation of the items, I am willing to accept your offer of having 1 hat, 2 books, and the ball, while you have the remaining 2 hats. This arrangement allows both of us to have a mix of items and maintains a balanced allocation. Let's finalize the agreement.
+Alice: Great, I'm glad we could come to an agreement. Let's finalize the allocation with me having 1 hat, 2 books, and the ball, and you having the remaining 2 hats. This way, we both get a mix of items and maintain a balanced allocation. Thank you for negotiating with me!
+Bob: Thank you too for negotiating with me! I agree to the final allocation of me having 2 hats and you having 1 hat, 2 books, and the ball. This ensures a balanced allocation between us. It was a pleasure negotiating with you as well!
+Alice: Thank you for your cooperation! I'm glad we reached a mutually beneficial agreement. It was a pleasure negotiating with you too. Have a great day!
+question: what's the proposal two party both agree with?
+answer: {"alice_items": {"book": 2, "hat": 1, "ball": 1}, "bob_items": {"book": 0, "hat": 2, "ball": 0}}

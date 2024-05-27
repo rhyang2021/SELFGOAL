@@ -1,0 +1,15 @@
+{"name": "Widget A", "price": 1000, "desc": "A widget for all your needs", "id": 1, "true_value": 2000}
+{"name": "Gadget B", "price": 1000, "desc": "A gadget with all the latest features", "id": 2, "true_value": 2000}
+{"name": "Thingamajig C", "price": 1000, "desc": "A little thing that is sure to impress", "id": 3, "true_value": 2000}
+{"name": "Doodad D", "price": 2000, "desc": "A durable doodad that will last for years", "id": 4, "true_value": 4000}
+{"name": "Equipment E", "price": 2000, "desc": "A piece of equipment for any tough job", "id": 5, "true_value": 4000}
+{"name": "Gizmo F", "price": 2000, "desc": "A gizmo that will surprise and delight", "id": 6, "true_value": 4000}
+{"name": "Implement G", "price": 3000, "desc": "A implement for everyday tasks", "id": 7, "true_value": 6000}
+{"name": "Apparatus H", "price": 3000, "desc": "An apparatus for specialized operations", "id": 8, "true_value": 6000}
+{"name": "Contraption I", "price": 3000, "desc": "A contraption that sparks creativity", "id": 9, "true_value": 6000}
+{"name": "Mechanism J", "price": 4000, "desc": "A mechanism for repetitive tasks", "id": 10, "true_value": 8000}
+{"name": "Utensil N", "price": 4000, "desc": "A utensil for dining and cooking", "id": 14, "true_value": 8000}
+{"name": "Appliance O", "price": 4000, "desc": "A appliance for everyday household tasks", "id": 15, "true_value": 8000}
+{"name": "Machine P", "price": 5000, "desc": "A machine for automated tasks", "id": 16, "true_value": 10000}
+{"name": "Unit Q", "price": 5000, "desc": "A unit for individual tasks", "id": 17, "true_value": 10000}
+{"name": "Element R", "price": 5000, "desc": "A element for scientific investigations", "id": 18, "true_value": 10000}
