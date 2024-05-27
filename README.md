@@ -18,7 +18,7 @@ Already Know How to Achieve High-level Goals </h1>
 SELFGOAL is a non-parametric learning algorithm for language agents, i.e., without parameter update. Concretely, SELFGOAL is featured with two key modules, Decomposition and Search which construct and utilize a subgoal tree respectively, namely GoalTree, to interact with the environment.
 
 <p align="center">
-    <img src="resource/main.pdf" width="100%"> <br>
+    <img src="resource/main_new.jpg" width="100%"> <br>
 </p>
 
 More details are in the paper.
