@@ -86,7 +86,7 @@ The gernerated sub-goal will shown the same as in the following example:
 
 ```bash
 Based on the current auction scenario, here are some derived sub-goals and detailed guidance to help you better achieve your primary objective, i.e., maximize your total profit: 
-* Sub-goal: * Market Value Research: Understand the current market value of the item being auctioned. This will help you estimate the potential profit and decide if the bidding price is justified.
+* Sub-goal: Market Value Research: Understand the current market value of the item being auctioned. This will help you estimate the potential profit and decide if the bidding price is justified.
 * Sub-goal: Profit Margin Calculation: Calculate the potential profit margin based on the current bidding price and the market value of the item. This will help you understand if the cost of bidding is worth the potential benefit.
 
 Please consider these sub-goals and detailed advice in your next round of strategic planning and action execution in the auction to help achieve your primary objective.
