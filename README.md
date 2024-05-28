@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 
 Here we take ``AucArena`` as an example to illustrite Decompose and Search Module, and how agent use the guidance to help itself to make decisions.
-### Decompose Module
+## Decompose Module
 To adapt SELFGOAL to your current scenario, you have to describe your envrionment in ``prompt_base.py``
 
 **main goal decomposition**
@@ -53,7 +53,7 @@ Taking analogy from human behaviors, if your fundamental objective in this scena
 
 For the goal: "{sub_goal}", based on current state, can you further run some deduction for fine-grained goals or brief guidelines?
 ```
-### Search Module
+## Search Module
 At each stage, you also have to provide SELFGOAL with current state for Search Module to search most useful sub-goals
 
 ```bash
@@ -65,7 +65,7 @@ Here's the current scenario:
 ------------------------------
 For the goal: "{sub_goal}", can you further run some deduction for fine-grained goals or brief guidelines?
 ```
-### An example of guidance
+## An example of guidance
 The gernerated sub-goal will shown the same as in the following example:
 
 ```bash
@@ -76,7 +76,7 @@ Based on the current auction scenario, here are some derived sub-goals and detai
 Please consider these sub-goals and detailed advice in your next round of strategic planning and action execution in the auction to help achieve your primary objective.
 ```
 
-### Act Module
+## Act Module
 
 
 ## Run
