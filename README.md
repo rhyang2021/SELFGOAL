@@ -32,7 +32,7 @@ conda activate selfgoal
 pip install -r requirements.txt
 ```
 
-Here we take ``AucArena`` as an example to illustrite Decompose and Search Module.
+Here we take ``AucArena`` as an example to illustrite Decompose and Search Module, and how agent use the guidance to help itself to make decisions.
 ### Decompose Module
 
 To adapt SELFGOAL to your current scenario, you have to describe your envrionment in ``prompt_base.py``
