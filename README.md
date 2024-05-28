@@ -77,7 +77,16 @@ Please consider these sub-goals and detailed advice in your next round of strate
 ```
 
 ## Act Module
+To prompt the agent to use the selected sub-goals to help its decision making process, add the guidance in system message.
 
+```bash
+Here are some possible subgoals and guidance derived from your primary objective:
+
+{sub-goals}
+
+In this round, You may target some of these subgoals and guidance to improve your bidding strategy and action, in order to achieve your primary objective.
+```
+You should also prompt agents in each round of decision, e.g., ``Reflect on derieved sub-goals``.
 
 ## Run
 #### For Open Source Models
