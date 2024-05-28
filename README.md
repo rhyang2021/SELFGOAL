@@ -7,7 +7,7 @@ Already Know How to Achieve High-level Goals </h1>
 
 <p align="center">
 [<a href="https://goaltree.github.io/">Website</a>]
-[<a href="https://arxiv.org/abs/2402.05733">Paper</a>] 
+[<a href="">Paper</a>] 
 
 </p>
 
