@@ -32,7 +32,8 @@ conda activate selfgoal
 pip install -r requirements.txt
 ```
 
-## Decompose Module
+Here we take ``AucArena`` as an example to illustrite Decompose and Search Module.
+### Decompose Module
 
 To adapt SELFGOAL to your current scenario, you have to describe your envrionment in ``prompt_base.py``
 
@@ -43,7 +44,7 @@ Imagine you are an agent in a {scene}.
 Taking analogy from human behaviors, if your fundamental objective in this scenario is "{goal}", what sub-goals you might have?
 ```
 
-## Search Module
+### Search Module
 At each stage, you also have to provide SELFGOAL with current state for Search Module to search most useful sub-goals
 
 ```bash
