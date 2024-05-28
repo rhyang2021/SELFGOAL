@@ -31,12 +31,11 @@ conda create -n selfgoal python=3.11
 conda activate selfgoal
 pip install -r requirements.txt
 ```
-
-Here we take ``AucArena`` as an example to illustrite Decompose and Search Module, and how agent use the guidance to help itself to make decisions.
+Here, we use ``AucArena`` as an example to illustrate the Decompose and Search Modules and how the agent utilizes guidance to make decisions.
 ## Decompose Module
 To adapt SELFGOAL to your current scenario, you have to describe your envrionment in ``prompt_base.py``
 
-**main goal decomposition**
+**Main Goal Decomposition**
 ```bash
 # main goal
 Imagine you are an agent in a {scene}. 
@@ -44,9 +43,9 @@ Imagine you are an agent in a {scene}.
 Taking analogy from human behaviors, if your fundamental objective in this scenario is "{goal}", what sub-goals you might have?
 ```
 
-**To derieve sub-goals**
+**Sub-Goal Decomposition**
 ```bash
-# sub-goal
+# sub-goals
 {scene}
 
 ---
@@ -54,7 +53,7 @@ Taking analogy from human behaviors, if your fundamental objective in this scena
 For the goal: "{sub_goal}", based on current state, can you further run some deduction for fine-grained goals or brief guidelines?
 ```
 ## Search Module
-At each stage, you also have to provide SELFGOAL with current state for Search Module to search most useful sub-goals
+At each stage, you must also supply SELFGOAL with the current state to enable the Search Module to identify the most useful sub-goals.
 
 ```bash
 # Sub-Goal
@@ -66,7 +65,7 @@ Here's the current scenario:
 For the goal: "{sub_goal}", can you further run some deduction for fine-grained goals or brief guidelines?
 ```
 ## An example of guidance
-The gernerated sub-goal will shown the same as in the following example:
+The generated sub-goal will be displayed as shown in the following example:
 
 ```bash
 Based on the current auction scenario, here are some derived sub-goals and detailed guidance to help you better achieve your primary objective, i.e., maximize your total profit: 
@@ -77,7 +76,7 @@ Please consider these sub-goals and detailed advice in your next round of strate
 ```
 
 ## Act Module
-To prompt the agent to use the selected sub-goals to help its decision making process, add the guidance in system message.
+To prompt the agent to use the selected sub-goals in its decision-making process, incorporate the guidance into the system message.
 
 ```bash
 Here are some possible subgoals and guidance derived from your primary objective:
@@ -86,7 +85,7 @@ Here are some possible subgoals and guidance derived from your primary objective
 
 In this round, You may target some of these subgoals and guidance to improve your bidding strategy and action, in order to achieve your primary objective.
 ```
-You should also prompt agents in each round of decision, e.g., ``Reflect on derieved sub-goals``.
+You should also prompt agents in each round of decision-making, for example, using ``Reflect on derived sub-goals``.
 
 ## Run
 #### For Open Source Models
