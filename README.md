@@ -65,33 +65,7 @@ Here's the current scenario:
 ------------------------------
 For the goal: "{sub_goal}", can you further run some deduction for fine-grained goals or brief guidelines?
 ```
-
-## Run
-#### For Open Source Models
-For open source models, deploy the model as an API using <a href="https://docs.vllm.ai/en/latest/">vLLM</a>
-
-```bash
-python -m vllm.entrypoints.openai.api_server --model facebook/opt-125m --port 8001
-```
-## AucArena
-```bash
-python auction_workflow.py --shuffle --repeat 10 -t 4
-```
-
-## DealOrNotDeal
-```bash
-python gpt_bargain.py
-```
-
-## GAMABench
-```bash
-python guessing_game.py
-python public_goods.py
-```
-
-
-
-## Example
+### An example of guidance
 The gernerated sub-goal will shown the same as in the following example:
 
 ```bash
@@ -102,6 +76,31 @@ Based on the current auction scenario, here are some derived sub-goals and detai
 Please consider these sub-goals and detailed advice in your next round of strategic planning and action execution in the auction to help achieve your primary objective.
 ```
 
+### Act Module
+
+
+## Run
+#### For Open Source Models
+For open source models, deploy the model as an API using <a href="https://docs.vllm.ai/en/latest/">vLLM</a>
+
+```bash
+python -m vllm.entrypoints.openai.api_server --model facebook/opt-125m --port 8001
+```
+### AucArena
+```bash
+python auction_workflow.py --shuffle --repeat 10 -t 4
+```
+
+### DealOrNotDeal
+```bash
+python gpt_bargain.py
+```
+
+### GAMABench
+```bash
+python guessing_game.py
+python public_goods.py
+```
 
 
 ## Contact
