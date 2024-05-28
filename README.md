@@ -36,7 +36,7 @@ Here we take ``AucArena`` as an example to illustrite Decompose and Search Modul
 ### Decompose Module
 To adapt SELFGOAL to your current scenario, you have to describe your envrionment in ``prompt_base.py``
 
-** main goal decomposition **
+**main goal decomposition**
 ```bash
 # main goal
 Imagine you are an agent in a {scene}. 
@@ -44,7 +44,7 @@ Imagine you are an agent in a {scene}.
 Taking analogy from human behaviors, if your fundamental objective in this scenario is "{goal}", what sub-goals you might have?
 ```
 
-** To derieve sub-goals **
+**To derieve sub-goals**
 ```bash
 # sub-goal
 {scene}
