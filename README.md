@@ -6,8 +6,8 @@ Already Know How to Achieve High-level Goals </h1>
 
 
 <p align="center">
-[<a href="https://goaltree.github.io/">Website</a>]
-[<a href="">Paper</a>] 
+[<a href="https://selfgoal-agent.github.io/">Website</a>]
+[<a href="http://arxiv.org/abs/2406.04784">Paper</a>] 
 
 </p>
 
@@ -33,14 +33,14 @@ pip install -r requirements.txt
 ```
 Here, we use ``AucArena`` as an example to illustrate the Decompose and Search Modules and how the agent utilizes guidance to make decisions.
 ## Decompose Module
-To adapt SELFGOAL to your current scenario, you have to describe your envrionment in ``prompt_base.py``
+To adapt SELFGOAL to your current scenario, you have to describe your environment in ``prompt_base.py``
 
 **Main Goal Decomposition**
 ```bash
 # main goal
 Imagine you are an agent in a {scene}. 
 
-Taking analogy from human behaviors, if your fundamental objective in this scenario is "{goal}", what sub-goals you might have?
+Taking an analogy from human behaviors, if your fundamental objective in this scenario is "{goal}", what sub-goals you might have?
 ```
 
 **Sub-Goal Decomposition**
@@ -50,7 +50,7 @@ Taking analogy from human behaviors, if your fundamental objective in this scena
 
 ---
 
-For the goal: "{sub_goal}", based on current state, can you further run some deduction for fine-grained goals or brief guidelines?
+For the goal: "{sub_goal}", based on the current state, can you further run some deduction for fine-grained goals or brief guidelines?
 ```
 ## Search Module
 At each stage, you must also supply SELFGOAL with the current state to enable the Search Module to identify the most useful sub-goals.
