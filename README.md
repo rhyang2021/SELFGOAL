@@ -115,7 +115,17 @@ python public_goods.py
 
 If you have any problems, please contact [Ruihan Yang](mailto:rhyang17@fudan.edu.cn).
 
-## Citation
 
-If our paper or related resources prove valuable to your research, we kindly ask for citation. 
+## Citation
+```
+@article{yang2024selfgoallanguageagentsknow,
+      title={SelfGoal: Your Language Agents Already Know How to Achieve High-level Goals}, 
+      author={Ruihan Yang and Jiangjie Chen and Yikai Zhang and Siyu Yuan and Aili Chen and Kyle Richardson and Yanghua Xiao and Deqing Yang},
+      year={2024},
+      eprint={2406.04784},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2406.04784}, 
+}
+```
 
